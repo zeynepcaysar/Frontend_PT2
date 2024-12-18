@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Page</title>
+    <style>
+        /* General page styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Layout styles */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Left sidebar styles */
+        .sidebar {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            height: 100vh;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+        }
+
+        .search-bar-container {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .search-bar {
+            width: 70%;
+            padding: 15px 40px;
+            border-radius: 30px;
+            border: 2px solid #ccc;
+        }
+
+        .magnifier {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .jobs-available {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .jobs-available span {
+            font-size: 24px;
+            display: block;
+            color: #333;
+        }
+
+        .jobs-available small {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .alert-button {
+            background-color: #d63384;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: block;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .saved-searches {
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .saved-searches-header {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .saved-searches-count {
+            background-color: #d63384;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 14px;
+        }
+
+        .filter-reset-button {
+            background-color: white;
+            color: #333;
+            padding: 10px 20px;
+            text-align: center;
+            display: block;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            width: 100%;
+            box-sizing: border-box;
+            outline: none;
+            margin-bottom: 20px;
+        }
+
+        .filter-reset-button:hover {
+            background-color: #e6e6e6;
+        }
+
+        .filter-button {
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            text-align: left;
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .filter-button .arrow {
+            /* Unicode for down arrow */
+            content: '\25BC';
+
+
+        }
+
+        .filter-button.active .arrow {
+            /* Unicode for up arrow */
+            content: '\25B2';
+
+
+
+        }
+
+        .activity-range {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+
+
+        }
+
+        .activity-range input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 6px;
+            border-radius: 5px;
+            background: #d3d3d3;
+            outline: none;
+            padding: 0;
+            margin: 0 10px;
+
+        }
+
+        .activity-range input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #d63384;
+            cursor: pointer;
+
+
+        }
+
+        .activity-range input[type="range"]::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            border: none;
+            border-radius: 50%;
+            background: #d63384;
+            cursor: pointer;
+
+        }
+
+        .activity-range label {
+            font-size: 14px;
+        }
+
+        /* Job listings styles */
+        .job-listings {
+            flex-grow: 1; /* Takes the remaining space */
+        }
+
+        .job-card {
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .job-card-header .job-date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .job-card-header .job-like {
+            cursor: pointer;
+            color: #ffc107; /* Gold color for the heart icon */
+        }
+
+        .job-card-body {
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .job-card-footer {
+            text-align: left; /* Aligns the 'en savoir plus' to the left */
+        }
+
+        .job-card-footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .job-card-footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="sidebar">
+        <div class="search-bar-container">
+            <input class="search-bar" type="text" placeholder="Recherche par mot clé">
+            <span class="magnifier">&#128269;</span> <!-- Unicode for magnifying glass -->
+        </div>
+
+        <div class="jobs-available">
+            <span>192 / 192</span>
+            <small>Actuel | Total</small>
+        </div>
+
+        <button class="alert-button">
+            &#128276; <!-- Unicode for bell icon -->
+            Créer un abo postes vacants
+        </button>
+
+        <div class="saved-searches">
+            <div class="saved-searches-header">
+                Recherches sauvegardées <span class="saved-searches-count">0</span>
+            </div>
+            <button class="filter-reset-button">
+                &#8634; <!-- Unicode for the refresh symbol -->
+                Réinitialiser les filtres
+            </button>
+        </div>
+
+        <!-- Activity rate filter -->
+        <div class="filter-button">
+            Taux d'activité (%)
+            <span class="arrow"></span>
+        </div>
+        <div class="activity-range">
+            <label for="activity">0%</label>
+            <input type="range" id="activity" min="0" max="100" value="50">
+            <label for="activity">100%</label>
+        </div>
+
+        <!-- Other filter buttons -->
+        <button class="filter-button">Secteur d'activité <span class="arrow"></span></button>
+        <button class="filter-button">Type de poste <span class="arrow"></span></button>
+        <button class="filter-button">Région <span class="arrow"></span></button>
+        <button class="filter-button">Favoris <span class="arrow"></span></button>
+        <button class="filter-button">Tags / mot-clés <span class="arrow"></span></button>
+    </div>
+        <div class="job-listings">
+            <!-- Job Card 1 -->
+        <div class="job-card">
+            <div class="job-card-header">
+                <span class="job-date">Canton de Genève | 23.10.2023</span>
+                <span class="job-like">&#10084;</span> <!-- Unicode for heart -->
+            </div>
+            <div class="job-card-body">
+                <div class="job-title">Participant in a scientific study / Participant à une étude scientifique</div>
+                <div>Yaqing Su</div>
+            </div>
+            <div class="job-card-footer">
+                <a href="#">en savoir plus</a>
+            </div>
+        </div>
+            <!-- Job Card 2 -->
+        <div class="job-card">
+            <div class="job-card-header">
+                <span>Canton de Genève | 10%</span>
+                <span class="heart-icon">&#10084;</span>
+            </div>
+            <div class="job-title">Université de Genève - Bavelier Lab</div>
+            <div>Expérience rémunérée en psychologie [Joueur.euse FPS/RPG]</div>
+            <div class="job-card-footer">
+                <a href="#">en savoir plus</a>
+            </div>
+        </div>
+
+        <!-- Job Card 3 -->
+        <div class="job-card">
+            <div class="job-card-header">
+                <span>Canton de Genève | 100%</span>
+                <span class="heart-icon">&#10084;</span>
+            </div>
+            <div class="job-title">Université de Genève - Centre interfacultaire en droits de l'enfant (CIDE)</div>
+            <div>Stage / Internship</div>
+            <div class="job-card-footer">
+                <a href="#">en savoir plus</a>
+            </div>
+        </div>
+
+        <!-- Job Card 4 -->
+        <div class="job-card">
+            <div class="job-card-header">
+                <span>Canton de Genève | 23.10.2023</span>
+                <span class="heart-icon">&#10084;</span>
+            </div>
+            <div class="job-title">Emmanuelle OSMOND</div>
+            <div>Garde enfant après école 3 jours par semaine</div>
+            <div class="job-card-footer">
+                <a href="#">en savoir plus</a>
+            </div>
+        </div>
+
+        <!-- Job Card 5 -->
+        <div class="job-card">
+            <div class="job-card-header">
+                <span>Canton de Genève | 50%</span>
+                <span class="heart-icon">&#10084;</span>
+            </div>
+            <div class="job-title">Local Flavours Tours</div>
+            <div>Chocolate Flavours Tour Guide ENG/DE Job description 50%</div>
+            <div class="job-card-footer">
+                <a href="#">en savoir plus</a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>

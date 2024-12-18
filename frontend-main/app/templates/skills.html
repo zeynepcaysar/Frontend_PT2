@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Compétences par Domaine</title>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="../static/images/logo-unige.png" alt="Logo">
+                <h1>Observatoire emploi</h1>
+            </div>
+
+                <nav class="teal-nav">
+                    <a href="{{ url_for('accueil') }}">Accueil</a>
+                    <a href="{{ url_for('display_jobs') }}">Emploi</a>
+                    <a href="{{ url_for('display_skills') }}">Compétence</a>
+                    <a href="{{ url_for('display_search') }}">Recherche</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="profile.html">Profil</a>
+                </nav>
+
+    </header>
+
+  <div class="search-container">
+    <input type="text" class="search-barr" placeholder="Recherche par mot clé">
+    <i class="search-icon">&#128269;</i>
+  </div>
+
+  <div class="domain-title">Compétences recherchées globale</div>
+
+  <div class="domains-container">
+      <div class="domain-button" style="color: black;" onclick="openPopup('Compétences globales')"><i class="icon fas fa-map"></i><p>Compétences globales</p></div>
+      <div class="domain-button" style="color: black;" onclick="openPopup('Compétences actuelles')"><i class="icon fas fa-pie-chart"></i><p>Compétences actuelles</p></div>
+      <div class="domain-button" style="color: black;" onclick="openPopup('Compétences associées')"><i class="icon fas fa-link"></i><p>Compétences associées</p></div>
+      <div class="domain-button" style="color: black;" onclick="openPopup('Compétences linguistiques')"><i class="icon fas fa-language"></i><p>Compétences linguistiques</p></div>
+      <div class="domain-button" style="color: black;" onclick="openPopup('Compétences techniques')"><i class="icon fas fa-code"></i><p>Compétences techniques</p></div>
+      <div class="domain-button" style="color: black;" onclick="openPopup('Compétences transversales')"><i class="icon fas fa-hands"></i><p>Compétences transversales</p></div>
+  </div>
+
+  <div class="domain-title">Compétences recherchées par domaine</div>
+
+  <div class="domains-container">
+    <!-- Row 1 -->
+    <div class="domain-button" style="background-color: #7bae99;" onclick="openPopup('Science')"><i class="icon fas fa-flask"></i><p>Science</p></div> <!-- Science -->
+    <div class="domain-button" style="background-color: #b34d79;" onclick="openPopup('Médecine')"><i class="icon fas fa-syringe"></i><p>Médecine</p></div> <!-- Medicine -->
+    <div class="domain-button" style="background-color: #518dd5;" onclick="openPopup('Lettres')"><i class="icon fas fa-book"></i><p>Lettres</p></div> <!-- Literature -->
+
+    <!-- Row 2 -->
+    <div class="domain-button" style="background-color: #f5c05d;" onclick="openPopup('Sciences de la société')"><i class="icon fas fa-users"></i><p>Sciences de la société</p></div> <!-- Sociology -->
+    <div class="domain-button" style="background-color: #75879f;" onclick="openPopup2('Économie et management')"><i class="icon fas fa-chart-bar"></i><p>Économie et management</p></div> <!-- Economy -->
+    <div class="domain-button" style="background-color: #ff626f;" onclick="openPopup2('Droit')"><i class="icon fas fa-balance-scale"></i><p>Droit</p></div> <!-- Law -->
+
+    <!-- Row 3 -->
+    <div class="domain-button" style="background-color:#7a4d95;" onclick="openPopup('Théologie')"><i class="icon fas fa-book"></i><p>Théologie</p></div> <!-- Theology -->
+    <div class="domain-button" style="background-color: #60c5c2;" onclick="openPopup('Psychologie et sciences de l éducation')"><i class="icon fas fa-brain"></i><p>Psychologie et sciences de l'éducation</p></div> <!-- Psychology -->
+
+    <!-- Row 4 -->
+    <div class="domain-button" style="background-color: #ff8756;" onclick="openPopup('Traduction et Interprétation')"><i class="icon fas fa-headphones"></i><p>Traduction et Interprétation</p></div> <!-- Translation -->
+    <div class="domain-button" style="background-color: #d63384;" onclick="openPopup('Global Studies Institute')"><i class="icon fas fa-globe"></i><p>Global Studies Institute</p></div> <!-- Global Studies -->
+    <div class="domain-button" style="background-color: #d63384;" onclick="openPopup('Centre universitaire d informatique')"><i class="icon fas fa-laptop"></i><p>Centre universitaire d'informatique</p></div> <!-- IT -->
+    <div class="domain-button" style="background-color: #f4f4f4;" onclick="openPopup('')"></div>
+
+  </div>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="modalTitle">Titre du Domaine</h2>
+    <div class="img-container">
+        <img src='../static/images/my_plot.png' alt="Image"/>
+    </div>
+
+    <div class="skills-list-container">
+      <ul>
+        {% for skill in skills_dict %}
+            <li>Compétence: {{ skill }} | Popularité: {{ skills_dict[skill]}}</li>
+        {% endfor %}
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal2()">&times;</span>
+    <h2 id="modalTitle2">Titre du Domaine</h2>
+    <div class="img-container">
+        <img src='../static/images/my_plot_dom.png' alt="Image"/>
+    </div>
+
+    <div class="skills-list-container">
+      <ul>
+        {% for skill in skills_dom %}
+            <li>Compétence: {{ skill }} | Popularité: {{ skills_dom[skill]}}</li>
+        {% endfor %}
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script>
+    function openPopup(domainName) {
+
+      document.getElementById('modalTitle').innerText = domainName;
+
+
+      document.getElementById('myModal').style.display = 'block';
+    }
+
+    function closeModal() {
+
+      document.getElementById('myModal').style.display = 'none';
+    }
+
+
+    function openPopup2(domainName) {
+
+      document.getElementById('modalTitle2').innerText = domainName;
+
+
+      document.getElementById('myModal2').style.display = 'block';
+    }
+
+    function closeModal2() {
+
+      document.getElementById('myModal2').style.display = 'none';
+    }
+
+  </script>
+
+
+
+</body>
+</html>

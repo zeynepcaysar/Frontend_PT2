@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Page</title>
+    <link rel="stylesheet" href="../app/static/styles/style.css">
+</head>
+<body>
+    <form action="aaa" method="POST">
+        <div class="container">
+            <div class="sidebar">
+            <div class="search-bar-container">
+                <input class="search-bar" type="text" placeholder="Recherche par mot clé">
+                <span class="magnifier">&#128269;</span> <!-- Unicode for magnifying glass -->
+            </div>
+
+            <div class="jobs-available">
+                <span>192 / 192</span>
+                <small>Actuel | Total</small>
+            </div>
+
+            <button class="alert-button">
+                &#128276; <!-- Unicode for bell icon -->
+                Créer un abo postes vacants
+            </button>
+
+            <div class="saved-searches">
+                <div class="saved-searches-header">
+                    Recherches sauvegardées <span class="saved-searches-count">0</span>
+                </div>
+                <button class="filter-reset-button">
+                    &#8634; <!-- Unicode for the refresh symbol -->
+                    Réinitialiser les filtres
+                </button>
+            </div>
+
+            <!-- Activity rate filter -->
+            <div class="filter-button">
+                Taux d'activité (%)
+                <span class="arrow"></span>
+            </div>
+            <div class="activity-range">
+                <label for="activity">0%</label>
+                <input type="range" id="activity" min="0" max="100" value="50">
+                <label for="activity">100%</label>
+            </div>
+
+            <!-- Other filter buttons -->
+            <button class="filter-button">Secteur d'activité <span class="arrow"></span></button>
+            <button class="filter-button">Type de poste <span class="arrow"></span></button>
+            <button class="filter-button">Région <span class="arrow"></span></button>
+            <button class="filter-button">Favoris <span class="arrow"></span></button>
+            <button class="filter-button">Tags / mot-clés <span class="arrow"></span></button>
+            </div>
+
+
+            <div class="job-listings">
+                {% for job in jobs_data %}
+                    <div class="job-card">
+                        <div class="job-card-header">
+                            <span class="job-date">{{ job.location }} | {{ job.postedAt }}</span>
+                            <span class="job-like">&#10084;</span>
+                        </div>
+                        <div class="job-card-body">
+                            <div class="job-title">{{ job.positionName }}</div>
+                            <div>{{ job.company }}</div>
+                        </div>
+                        <div class="job-card-footer">
+                            <a href="{{ job.url }}">en savoir plus</a>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>

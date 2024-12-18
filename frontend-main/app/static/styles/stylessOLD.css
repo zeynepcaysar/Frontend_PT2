@@ -1,0 +1,113 @@
+/* stylesold.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-color: #174248;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-right: 10px; /* Add margin between logo and tabs */
+}
+
+.logo img {
+    margin-right: 10px; /* Adjust the margin as needed */
+    max-height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style for the active tab */
+nav a.active {
+    text-decoration: underline;
+}
+main.search-page {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+aside.search-board {
+    width: 250px; /* Adjust the width as needed */
+}
+
+.search-results {
+    color: #174248;
+    flex-grow: 1;
+    padding-left: 20px; /* Adjust the padding as needed */
+    text-align: center;
+}
+.search-board {
+    color: white;
+    background-color: #8E9D9E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search-board label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-board select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.search-page button {
+    background-color: #147377;
+    color: white;
+    font-size: 16px;
+    font-weight: bold; /* Make the text bold */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+.reset-filters {
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block; /* Ensure it appears on a new line */
+}
+.reset-filters:hover {
+    color: #174248; /* Adjust the hover color as needed */
+}
+

@@ -1,0 +1,2378 @@
+@prefix ns1: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Company a rdfs:Class .
+
+ns1:Country a rdfs:Class .
+
+ns1:Job a rdfs:Class .
+
+ns1:Skill a rdfs:Class .
+
+ns1:Assistant_Ship_Engineer a ns1:Job ;
+    rdfs:label "Assistant Ship Engineer" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Canton of Basel-Stadt" ;
+    ns1:forCompany ns1:Amentum ;
+    ns1:hasDescription """Amentum is seeking an Assistant Ship Engineer to join our team on Andros Island, Bahamas to support the Atlantic Undersea Test and Evaluation Center (AUTEC) mission. The Assistant Ship Engineer assists the Senior Engineer with maintaining, operating and repairing propulsion engines plus other machinery on the vessels, Hammerhead I and Hammerhead II, on the AUTEC project. Must be able to obtain and maintain a Secret US Government Clearance. Note: US Citizenship is required to obtain a Secret Clearance.
+  Essential Responsibilities:
+  
+   Operates all vessel machinery in day-to-day operations. 
+   Performs required preventative maintenance. 
+   Performs all vessel fuel, potable water, and ballast water pumping operations. 
+   Assists senior engineer with maintaining engineering logs on vessel. 
+   Assists with deck operations and duties as needed. 
+   Performs other job-related duties as assigned. 
+ 
+ 
+  Minimum Requirements:
+  
+   3 years of experience aboard diesel-powered vessels. 
+   High School graduate or equivalent and graduate of a maritime academy, technical institute, or trade school with a specialty in power mechanics required. 
+   Must meet the requirements to obtain and hold certification in Explosive Weapons Certification within 6 months of hire. 
+   Must show professional ability to operate with no onboard supervision. 
+   Must have demonstrated ability to carry out operational and maintenance activities associated with high and medium speed diesel engines, electrical power generation and distribution, hydraulic and pneumatic pumping and power systems, and miscellaneous electrical control systems typically found on vessels up to 125 feet long. 
+   Must be able to push, pull and lift up to 50 pounds. 
+   Excellent oral and written communication skills. 
+   Must be able to reside in remote work location with limited medical facilities. 
+   Valid driver’s license and passport will be required. 
+   Must be able to obtain and maintain a Secret US Government Clearance. Note: US Citizenship is required to obtain a Secret Clearance.
+ 
+ 
+  Amentum is proud to be an Equal Opportunity Employer. Our hiring practices provide equal opportunity for employment without regard to race, religion, color, sex, gender, national origin, age, United States military veteran’s status, ancestry, sexual orientation, marital status, family structure, medical condition including genetic characteristics or information, veteran status, or mental or physical disability so long as the essential functions of the job can be performed with or without reasonable accommodation, or any other protected category under federal, state, or local law.
+ 
+  EEO is the Law Poster
+  EEO is the Law Poster Supplement""" ;
+    ns1:hasSkill ns1:conduct_routine_machinery_checks,
+        ns1:consult_technical_resources,
+        ns1:electrical_wiring_plans,
+        ns1:electricity,
+        ns1:follow_health_and_safety_procedures_in_construction,
+        ns1:guide_lift_car_installation,
+        ns1:hydraulics,
+        ns1:inspect_construction_supplies,
+        ns1:install_electrical_and_electronic_equipment,
+        ns1:install_hydraulic_systems,
+        ns1:install_lift_controller,
+        ns1:install_lift_governor,
+        ns1:install_lift_shaft_support_equipment,
+        ns1:install_pneumatic_systems,
+        ns1:lift_safety_legislation,
+        ns1:lift_safety_mechanisms,
+        ns1:mechanical_systems,
+        ns1:mechanics,
+        ns1:operate_soldering_equipment,
+        ns1:operate_welding_equipment,
+        ns1:perform_maintenance_on_installed_equipment,
+        ns1:pneumatics,
+        ns1:program_lift_controller,
+        ns1:record_test_data,
+        ns1:resolve_equipment_malfunctions,
+        ns1:secure_working_area,
+        ns1:test_lift_operation,
+        ns1:troubleshoot,
+        ns1:types_of_lifts,
+        ns1:use_safety_equipment_in_construction,
+        ns1:work_ergonomically ;
+    ns1:hasType "100%",
+        "90-100%" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=cc3d9ad81b6c3ae6&from=jasx&tk=1hgv9ipm5ikra800&vjs=3" .
+
+ns1:Bioprocess_Engineer_Biotechnologist a ns1:Job ;
+    rdfs:label "Bioprocess Engineer / Biotechnologist" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Remote" ;
+    ns1:forCompany ns1:Planetary_SA ;
+    ns1:hasDescription """Company: Planetary SA Role: Bioprocess Engineer / Biotechnologist Location: Remote; with occasional in-person interactions Start date: Immediate Salary: Competitive compensation and participation in an attractive employee stock option plan 
+    The Company: 
+    Planetary is SCALING THE NEW PROTEIN REVOLUTION. We are a venture backed food-tech company with 12 FTE across 3 locations. By building industrial-scale bioprocessing capacity and IP globally we are enabling a sustainable shift in the food system from livestock to non-animal proteins. To support the construction of our first plant in Switzerland, planetary is searching for an experienced Bioprocess Engineer. 
+    The Position: 
+    Planetary is looking for an experienced Bioprocess Engineer with expertise in factory and plant design, infrastructure, regulations, and finished product formulations. 
+   
+    Engineering and optimization of fermentation-based production processes for new
+    and existing products as technical expert 
+   
+    Creation of holistic process concepts for industrialization: meeting customer
+    requirements, implementation in experimental work plans, evaluation, and
+    documentation 
+   
+    Technology responsibility: from lab development to scale-up to industrial scale and
+    continuous improvement 
+   
+    Lead the regulatory guidance on plant design and layout [authority engineering, food
+    requirements, certifications, etc.]. 
+   
+    Keeping track of the state of the art from competitors and the scientific community
+    and building competencies 
+   
+    Know-how protection and IP management
+    Work alongside the engineering team for successful design and implementation of
+    
+    our flagship plant. 
+    Qualifications and Experience: 
+   
+    Successfully completed university studies in chemical or bioprocess engineering or
+    related disciplines 
+   
+    +5 years of experience of process engineering design possibly within the biotech
+    industry but certainly within a related transferrable industry such as the chemical
+    sector or water treatment arena for examples. 
+   
+    Experience and familiarity with designing for delivery/implementation and associated
+    project construction and execution. 
+   
+    Professional experience in industrial biotechnology, especially in the area of process
+    development/scaling 
+  
+ 
+ 
+  
+   
+    Ability to perform process development involving multiple disciplines (e.g., product
+    isolation and purification,) in cross-functional and cross-site teams 
+   
+    Familiarity with modern CAE packages and interfaces for process plant design.
+    Evidence of working as part of a multi-discipline team.
+    English is required, German is a plus
+    
+    Contact: Please email your CV/ cover letter to: HR@planetarygroup.ch 
+    Planetary is an equal opportunity employer actively recruiting for diversity. Through hiring, we aim to close the gender gap, create opinion plurality, fight age discrimination, foster cultural diversity and promote freedom of self-expression.""" ;
+    ns1:hasSkill ns1:analyse_samples_of_food_and_beverages,
+        ns1:apply_GMP,
+        ns1:apply_HACCP,
+        ns1:apply_requirements_concerning_manufacturing_of_food_and_beverages,
+        ns1:biotechnology,
+        ns1:detect_microorganisms,
+        ns1:ensure_public_safety_and_security,
+        ns1:enzymatic_processing,
+        ns1:fermentation_processes_of_beverages,
+        ns1:fermentation_processes_of_food,
+        ns1:followup_lab_results,
+        ns1:food_allergies,
+        ns1:food_and_beverage_industry,
+        ns1:food_legislation,
+        ns1:food_preservation,
+        ns1:food_product_ingredients,
+        ns1:food_products_composition,
+        ns1:food_safety_principles,
+        ns1:food_science,
+        ns1:food_storage,
+        ns1:food_toxicity,
+        ns1:foodborne_diseases,
+        ns1:identify_the_factors_causing_changes_in_food_during_storage,
+        ns1:improve_chemical_processes,
+        ns1:ingredient_threats,
+        ns1:keep_up_with_innovations_in_food_manufacturing,
+        ns1:laboratorybased_sciences,
+        ns1:lead_process_optimisation,
+        ns1:legislation_about_animal_origin_products,
+        ns1:manage_discarded_products,
+        ns1:manage_food_manufacturing_laboratory,
+        ns1:monitor_developments_used_for_food_industry,
+        ns1:monitor_processing_conditions,
+        ns1:operate_microscope,
+        ns1:pathogenic_microorganisms_in_food,
+        ns1:perform_food_risk_analysis,
+        ns1:perform_microbiological_analysis_in_the_food_chain,
+        ns1:prepare_visual_data,
+        ns1:quality_assurance_methodologies ;
+    ns1:hasType "100%" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=b5155283b8536447&from=jasx&tk=1hgv9broliqvc800&bb=KfRRIHLUJCrGdUBodw5TeKIcDW7ucjH4meBXPaTr8z9XJsULA59oXz4Fpex6Pc-CcBivDjaxafJbok3AVNb89UDHJSIeV4xeBX4V0Ufq9267__pIb6QFaw%3D%3D&xkcb=SoAb67M3HfagoXA0QD0JbzkdCdPP&vjs=3" .
+
+ns1:Camp_Manager_for_our_Summer_Camp_Engelberg_CH a ns1:Job ;
+    rdfs:label "Camp Manager for our Summer Camp - Engelberg - CH" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "6390 Engelberg, OW" ;
+    ns1:forCompany ns1:ALPADIA_Language_Schools_SA ;
+    ns1:hasDescription """Company Description
+  Alpadia Language Schools from Kaplan International Languages, offers all-year round schools in Montreux, Berlin, Freiburg and Lyon, teaching French and German. Alpadia also provides English, French and German summer courses for juniors and teens in Europe. Initially established in 1996, and now larger than ever, our mission is to encourage language development through immersion and to expand the horizons of our students, to inspire their future.
+ 
+ 
+
+ Job Description
+  Join ALPADIA’s teams to make this summer 2024 an unbelievable one! We are looking for motivated persons, who have a good feeling with kids and teenagers and who are looking for an enriching and educative experience.
+  For the 2024 season, ALPADIA is currently looking for a Camp Manager in our holiday course centre.
+  Your main responsabilities :
+ 
+   Managing a team of teachers and activity leaders
+   Checking the quality of the services provided by the ALPADIA education team
+   Managing a course centre with a capacity of 80 to 150 students
+   Organising sports and cultural activities
+   Reporting and contact with ALPADIA’s main office
+ 
+ 
+ 
+
+ Qualifications
+  
+ 
+   Camp director certificate, hotel management, business studies or equivalent
+   Ability to manage a team of teachers and activity leaders
+   Professional experience in summer camps or similar structures
+   Teaching experience or qualification is a plus
+   German (C2), English (C2), French is a plus.
+   High sense of responsibility, organisation and initiative
+   Ability to multitask and to deal with stress
+   Knowledge of the area desired
+   Driving licence mandatory
+ 
+  Additional Information
+  We offer you:
+ 
+   An unforgettable experience in a young and dynamic atmosphere
+   An international working environment
+   A full board accommodation
+   A first experience with ALPADIA which is present in 4 countries in the world with 16 summer camps for teenagers
+ 
+  Location of our course centre:
+ 
+   Engelberg - Switzerland
+ 
+  Employment period and training:
+ 
+   From June 29th, 2024 until August 3rd, 2024
+   Prior to the start of the camp, the directors will receive a compulsory training in May 2024 in Leysin.
+ 
+  Miscellaneous:
+ 
+   Full-Board accommodation on-site is mandatory
+ 
+  How to apply: 
+ 
+  Do you enjoy teamwork and working with children? Are you ready to get involved and have a new, enriching experience? So send us your application (CV and cover letter) through SmartRecruiters.
+ 
+  Only applications accepted for an interview will receive a reply.""" ;
+    ns1:hasSkill ns1:analyse_business_plans,
+        ns1:analyse_business_processes,
+        ns1:analyse_staff_capacity,
+        ns1:assess_the_feasibility_of_implementing_developments,
+        ns1:characteristics_of_products,
+        ns1:characteristics_of_services,
+        ns1:coordinate_operational_activities,
+        ns1:corporate_social_responsibility,
+        ns1:create_a_work_atmosphere_of_continuous_improvement,
+        ns1:create_solutions_to_problems,
+        ns1:customer_relationship_management,
+        ns1:fix_meetings,
+        ns1:follow_company_standards,
+        ns1:manage_resources,
+        ns1:manage_staff,
+        ns1:measure_customer_feedback,
+        ns1:motivate_employees,
+        ns1:plan_health_and_safety_procedures,
+        ns1:present_reports,
+        ns1:supervise_work ;
+    ns1:hasType "No information" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=baa723f719bbe82e&from=jasx&tk=1hgv9628a2cj5000&vjs=3" .
+
+ns1:Education_Technical_Adviser_Central_Africa a ns1:Job ;
+    rdfs:label "Education Technical Adviser, Central Africa" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Geneva, GE" ;
+    ns1:forCompany ns1:International_Rescue_Committee ;
+    ns1:hasDescription """Requisition ID: req46354
+  Job Title: Education Technical Adviser, Central Africa
+  Sector: Education
+  Employment Category: Regular
+  Employment Type: Full-Time
+  Open to Expatriates: No
+  Location: Geneva, Switzerland
+  Work Arrangement: Open to Remote
+  Job Description
+ 
+ 
+   This position can be based in other locations.
+   
+   
+  BACKGROUND
+ 
+ 
+   Founded in 1933 at the behest of Albert Einstein, the International Rescue Committee (IRC) has developed unparalleled expertise in responding to emergencies and helping communities rebuild. The IRC is committed to a culture of bold leadership, innovation, creative partnerships, and, most crucially, accountability to those we serve. At work today in over 40 countries and 28 U.S. cities, IRC restores safety, dignity, and hope to millions who are uprooted. The IRC’s vision is to lead the humanitarian sector through implementing high-impact, cost-effective programs for people affected by crisis and by using our learning and experience to shape policy and practice. To achieve that vision, the IRC’s Technical Excellence (TE) provides technical assistance to IRC’s country program staff and share learnings to influence policy and practice. TE is comprised of five technical units: Economic Recovery and Development; Education; Governance; Health; and Violence Prevention and Response.
+ 
+ 
+ 
+   In 2022, the IRC reached over 800,000 children and youth in 20 countries with education programs. We ensure that even the hardest to reach children in the most challenging places are able to go to school and thrive. In the midst of conflict and disaster, education is one of the first things parents and children say they need. Education is a human right. It also helps keep children safe and gives them the skills needed to be resilient, do well now, and later in life. Education offers a glimmer of hope. The IRC defines success with education outcomes from infancy to young adulthood, ensuring results for all girls and boys, regardless of age. These outcomes are: early childhood learning and nurturing care; primary school-aged learning; and youth learning; as well as the complementary safety in school outcome.
+ 
+ 
+ 
+   POSITION OVERVIEW
+ 
+ 
+   As the Education Technical Advisor for Central Africa, you are responsible for ensuring high quality technical assistance to all countries and teams in the region – including collaboration with counterparts from other sectors to ensure holistic support to clients. You will promote and collaborate with relevant stakeholders to achieve high quality, high impact interventions that are informed by evidence and best practice, contextually appropriate, driven by client and partner voices, and widely inclusive.
+ 
+ 
+ 
+   Program Design & Business Development: You will support country programs to design winning submissions and generally position IRC for continued success in our technical domains:
+ 
+ 
+   Support designated country programs’ proposal technical lead through participation in and/or facilitation of program design meetings
+   Promote and support design collaboration with partners and clients
+   Advise on program modalities, and strategic partnership development based on how we can best support, complement, and reinforce local systems
+   Advising and/or providing hands-on support on assessments, including application and contextualization of technical standards
+   Reviewing technical design quality, including alignment of narratives, log-frames, and budgets to IRC standards and outcomes
+ 
+ 
+ 
+   Implementation Support: You will support country program staff and other key stakeholders in implementing technical interventions:
+ 
+ 
+   Support country programs and other stakeholders with the recruitment and training of technical coordinators
+   Assess program quality and inform improvements, providing follow up support to country programs as needed
+   Collaborate with country program colleagues to monitor and analyze key indicators to inform periodic review, program adaptation, and course-correction as needed
+   Provide technical capacity strengthening through ongoing mentoring, coaching, and trainings with country program focal points
+ 
+ 
+ 
+   Knowledge & Learning: You will support continuous sectoral learning and IRC technical leadership:
+ 
+ 
+   Document learnings from program activities and sharing takeaways and opportunities
+   Share cross-contextual learnings with country program staff across the region
+   Refresh the sectoral evidence-base in collaboration with global and regional staff to influence approaches
+   Collaborate with other technical advisors within the region to promote integrated programming leadership
+   Contribute to the delivery of education strategic priorities
+   Maintain currency with sectoral best practices through continual learning and development
+ 
+ 
+ 
+   PROFESSIONAL PROFILE
+ 
+ 
+   Success in this position requires an individual with expertise in designing and delivering technical assistance to education programs, and with a deep understanding of the cultural, societal, and political contexts in Central Africa.
+ 
+ 
+ 
+   Work Experience:
+ 
+ 
+   6-8 years of relevant experience in implementing and/or managing education programs, with on the ground programmatic experience in a service delivery organization, NGO or comparable international agency required.
+   Experience and familiarity with related donors, peer agencies and national contexts required, preferably in humanitarian and transitional, post-crisis contexts.
+   Demonstrated expertise in technical program design, monitoring and evaluation, with the ability to turn concepts and strategy into measurable action.
+ 
+ 
+ 
+   Demonstrated Skills and Competencies:
+ 
+ 
+   Excellent verbal and written communications skills
+   Strong organizational and time-management skills; proven ability to prioritize and deliver projects on time and independently.
+   Demonstrated ability to navigate a dynamic, cross-functional, global team structure in a large multi-national organization.
+   Demonstrated ability to work effectively with internal and external stakeholders at all levels.
+   Strong analytic problem-solving skills.
+   Highly proficient in Microsoft Office suite.
+   Ability to manage and work through change in a proactive and positive manner.
+ 
+ 
+ 
+   Education: Bachelor’s Degree in Education or a relevant field required, Master’s Degree preferred.
+ 
+ 
+ 
+   Language Skills: Excellent spoken and written English and French is essential. Proficiency in an additional IRC language (Arabic, Spanish, etc.) strongly preferred.
+ 
+ 
+ 
+   Key Working Relationships: This position reports to the Senior Education Technical Advisor, based in the US. This position may potentially supervise occasional consultants and/or interns. Regular communication with other education staff, regional and country program teams, awards management and grants management staff, and other internal stakeholders.
+ 
+ 
+ 
+   Working Environment: Standard office working environment. This role may have some international travel up to 40% of the time. This role can be based in Switzerland, Cameroon, and Tanzania. Other IRC locations may be possible. For staff based in IRC’s New York or London offices: This role may require working remotely full or part-time and part-time remote employees may be required to share workspaces.
+ 
+ 
+ 
+   Diversity, Inclusion and Gender Equality
+ 
+ 
+   IRC acknowledges and honors the fundamental value and dignity of all individuals. We are an Equal Opportunity Employer and consider all applicants on the basis of merit without regard to race, sex, color, national origin, religion, sexual orientation, age, marital status, veteran status, disability, or any other protected characteristic. IRC is also committed to narrowing the gender gap in leadership positions. We offer benefits that provide an enabling environment for women to participate in our workforce including parental leave, gender-sensitive security protocols and other supportive benefits.
+ 
+ 
+ 
+   We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation.
+ 
+ 
+ 
+   The IRC and IRC workers must adhere to the values and principles outlined in IRC Way - Standards for Professional Conduct. These are Integrity, Equality, Service, and Accountability. In accordance with these values, the IRC operates and enforces policies on Beneficiary Protection from Exploitation and Abuse, Child Safeguarding, Anti Workplace Harassment, Fiscal Integrity, and Anti-Retaliation.
+ 
+ 
+   #LI-FC1
+ 
+ 
+   #LI-REMOTE""" ;
+    ns1:hasSkill ns1:clean_up_spilled_oil,
+        ns1:coordinate_with_other_emergency_services,
+        ns1:dispose_waste,
+        ns1:ensure_compliance_with_environmental_legislation,
+        ns1:estimate_damage,
+        ns1:evacuate_people_from_buildings,
+        ns1:evacuate_people_from_flooded_areas,
+        ns1:first_aid,
+        ns1:flood_remediation_equipment,
+        ns1:operational_tactics_for_emergency_responses,
+        ns1:perform_environmental_remediation,
+        ns1:provide_emergency_supplies,
+        ns1:remove_debris,
+        ns1:treat_flood_damage ;
+    ns1:hasType "100%",
+        "90-100%" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=d28b834bab49ac97&from=jasx&tk=1hgv6gr5aiqva800&vjs=3" .
+
+ns1:Finance_and_Administration_Manager_Western_Europe a ns1:Job ;
+    rdfs:label "Finance and Administration Manager Western Europe" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Geneva, GE" ;
+    ns1:forCompany ns1:PATH ;
+    ns1:hasDescription """PATH is a global nonprofit dedicated to achieving health equity. With more than 40 years of experience forging multisector partnerships and with expertise in science, economics, technology, advocacy, and dozens of other specialties, PATH develops and scales up innovative solutions to the world’s most pressing heath challenges.
+Responsibilities:
+Reporting to Director Business Operations - Asia, Middle East & Europe region and based at UK / Switzerland, the Finance and Administration Manager will undertake the following responsibilities:
+Finance
+
+ Develop and monitor Country Operations and Facilities annual budgets, including producing customized financial reports, and trend analysis to support decisions.
+ Oversee and control accounts payable and receivables for Belgium, Switzerland and UK offices of PATH.
+ Prepare journal entries. Verify, allocate, post and reconcile transactions. Support month-end and year-end close process.
+ Administrate and supervise local employees’ payroll in collaboration with external payroll processor. Provide guidance and assistance to International Accounting team with regards to local payroll laws and regulations.
+ Supervise the timekeeping process. Ensure employees’ timesheets are completed accurately and timely. Address issues where necessary.
+ Manage relationships with the external accounting company, auditor, bank and International Accounting Services team.
+ Ensure compliance of financial processes and procedures with local requirement in respect to legal, accounting, tax rules.
+ Maintain good understanding of all organizational policies and serve as a local expert to ensure compliance regarding personnel, travel, procurement, agreements, financial, facilities and IS policies.
+
+Facilities
+
+ Oversee procurement, installation and maintenance of office systems and equipment, consistent with local requirements and standards established by Head Quarters Facilities team.
+ Develop and cultivate relationships with Property Management company and third-party service providers and vendors.
+ Establish and supervise contracts with suppliers for services (such as plumbing, electrical, and cleaning services) related to ongoing office operations.
+ Serve as Office Safety Coordinator and contact person for the site’s preparedness plans and staff safety/security issues.
+
+Others
+
+ Collaborate with HR Department on ad-hoc matters.
+
+Required skills and experience:
+
+ Bachelor’s degree in finance, accounting, economics or relevant field from an accredited college or university and/or a diploma of accounting.
+ Three or more years of progressive accounting and financial planning experience.
+ Three or more years of experience with managing the operations of a small office.
+ Knowledge of Generally Accepted Accounting Principles including financial statement design.
+ Working knowledge of EU and UK social security and labor regulations.
+ Ability to manage finances or budgets of multiple offices concurrently. Ability to quickly come up to speed on new concepts.
+ Advanced Excel modeling skills and proficient in other Microsoft Office Suite applications including Word, PowerPoint, and Outlook.
+ Experience with ERP systems.
+ Experience with managing payroll.
+ Experience with office procurement and facilities management.
+ Working experience in several EU countries or with an International NGO is desirable.
+ Strong organizational skills with detail-orientation, good follow-through, and ability to work independently with minimal supervision.
+ Critical thinking combined with strong analytical and problem-solving skills.
+ Ability to effectively communicate verbally and in writing with colleagues at all levels of the organization.
+
+Location: London, United Kingdom or Geneva, Switzerland
+Candidates Must Apply via link: https://path.wd1.myworkdayjobs.com/External/job/United-Kingdom-Remote/Finance-and-Administration-Manager-Western-Europe_JR578
+PATH is dedicated to building an inclusive workforce where diversity is valued.
+PATH is an equal opportunity employer. Every qualified applicant will be considered for employment.
+PATH does not discriminate based on race, color, religion, caste, gender, sexual orientation, gender identity, genetic information, age, national origin, marital status, disability status, political ideology, military or protected veteran status, or any other characteristic protected by applicable federal, state, or local law.
+Job Type: Fixed term
+Schedule:
+
+ 8 Hour Shift
+
+Ability to commute/relocate:
+
+ Geneva, GE: Reliably commute or planning to relocate before starting work (Required)""" ;
+    ns1:hasSkill ns1:advise_on_efficiency_improvements,
+        ns1:business_analysis,
+        ns1:corporate_social_responsibility,
+        ns1:develop_company_strategies,
+        ns1:ensure_compliance_with_policies,
+        ns1:integrate_strategic_foundation_in_daily_performance,
+        ns1:monitor_company_policy,
+        ns1:organisational_policies,
+        ns1:strategic_planning ;
+    ns1:hasType "Fixed term",
+        "Temporary / Staffing" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=ceb890adc616353e&from=jasx&tk=1hgv9i1uhikra800&vjs=3" .
+
+ns1:HRBP_EMEA_at_80 a ns1:Job ;
+    rdfs:label "HRBP EMEA at 80%" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Lausanne, VD" ;
+    ns1:forCompany ns1:BRP ;
+    ns1:hasDescription """We’re a world leader in recreational vehicles and boats, creating innovative ways to move on snow, water, asphalt, dirt and even in the air. Headquartered in the Canadian town of Valcourt, Quebec, our company is rooted in a spirit of ingenuity and intense customer focus. Today, we operate manufacturing facilities in Canada, the United States, Mexico, Finland, Australia and Austria, with a workforce made up of close to 23,000 spirited people, all driven by the deeply held belief that at work, as with life itself, it’s not about the destination; It’s about the journey. The primary responsibility of the Payroll coordinator EMEA is to coordinate payroll activities for our different entities in Europe in collaboration with our local payroll providers. S/he will act as the contact person for all payroll queries. 
+
+ 
+Description of the role:
+ The primary responsibility of the HR Business Partner is to advice, guide and support the assigned teams. The HRBP supports the EMEA HR Manager in executing and monitoring the deployment of the HR strategy to support the achievement of the regional business plan. 
+
+ The HRBP is the main connection between BRP and HR function and the main point of contact for employees. The HRBP develops trustworthy relationships by being a trusted partner with the ability to understand and influence the business strategy and goals and translates them into actionable business aligned people strategies. 
+She/he supports the development and implementation of HR plans, programs, and tools with local business leaders and Global Practices to build and enhance organizational capability. 
+
+ The HRBP evolves in an environment that fosters world class professional development and is part of a dynamic and passionate team having a great influence on the decision making. Located in our office in Meyreuil or in Lausanne, the HRBP has a limited number of business trips during the year. 
+
+ 
+Main responsibilities (but not limited to):
+ 1 HR Business Partnering (approx. 60% of the time) 
+
+ 
+ 
+ Provides advice and support to assigned teams on all HR related matters. 
+ Acts as a business partner to drive business results that optimize talent, structure, processes, and culture by asking appropriate questions and providing solutions. 
+ Collaborates with the HR Manager and the HRBP’s team to further nurture and develop a best-in-class Employee Experience. 
+ Promotes the business ethics and company values by being its ambassador. 
+ Participates in HR projects supported by the team as needed. Creates and nurtures a network of partners to support the realization of EMEA HR initiatives. 
+ Models a caring mindset and promote healthy teams’ dynamic. Encourages discussions with employees’ part of assigned teams about various situations and takes action to solve them, as per needs. 
+ Participates in the recruitment process in her/his assigned area for permanent and temporary professional positions until the employee is hired. 
+ Elevates onboarding experience for employees in her/his assigned area in collaboration with the Talent team. Boosts human connections and experiences that really matter. Makes sure the presentations and training material are up to date. Delivers content to the newly hired employees. Follows up on integration of newly hired employees and makes sure their engagement is kept at the required level. 
+ Commits to DE&I mindset that removes barrier. 
+ Punctually collaborates with the Total rewards team in making sure the internal equity is maintained within her/his assigned teams (participates in salary review, salary offers elaboration, etc.) 
+ Supports the HR Manager in relocation, expatriation or short-term assignment processes management (offers preparations, follow up, communications, integration, etc.). 
+ Actively participates in local employee value proposition activities. 
+ 2. Leadership and Talent Development (approx. 20% of the time) 
+
+ 
+ 
+ Attracts, protects, and stretches talent to foster engagement and growth. 
+ Supports the Talent programs activation and execution with the global center of excellence. Regularly communicates with the global center of excellence and adapt novelties into EMEA reality. 
+ Helps the HR Manager and the HRBP running the whole talent cycle for the region (Performance management process incl. reports preparation, performance reviews co-animation, follows up on results and supports action plans. Co-manages Talent reviews for the region - high potential employees & leaders’ identification, follows-up on development activities & ensures succession plan for mission critical positions). 
+ Ensures organization has the talents needed by encouraging a culture for continuous learning, support global talent team in the deployment of their initiatives such as mentoring, eLearning library, office vibe, etc. 
+ Helps assigned team members in their ambitions by actively supporting establishment & implementation of personal development plans. 
+ Co-develops retention strategy (together with the EMEA HR Manager, HRBP and the Talent team). 
+ 3. HR Administration (approx. 20% of the time ) 
+
+ Our new colleague is not afraid to manage HR administration. 
+
+ 
+ Prepares and maintains monthly HR reports together with other team members 
+ Prepare employees work certificates, internal company announcements or bonus memo 
+ Lead or co-lead various projects requiring administrative follow up (for ex. Company car policy renewal, WellBe newsletters and other EVP initiatives) 
+ Qualification and experience 
+
+ 
+ 
+ 5-7 years of experience as HR generalist including 2-3 years as HRBP 
+ Experience ideally acquired within an international HR environment 
+ Academic degree, ideally in HR/OD related field 
+ Knowledge of the Europeans labor law (notably French) is a plus 
+ Excellent written and communication skills in English, any other European language is a plus 
+ Behavioral skills 
+
+ 
+ 
+ Irreproachable business ethics and solid interpersonal skills 
+ Strong interest in operational part, without being afraid taking over administrative tasks 
+ Dynamic and collaborative, curious to question, learn, listen and develop “can do” solutions 
+ Ability to challenge and be challenged 
+ Ability to influence decisions 
+ Strong self-organization, priorities setting skills and ability to deal with multiple priorities 
+ Enthusiastic team player demonstrating drive and passion while respecting Company values""" ;
+    ns1:hasSkill ns1:develop_recreation_programmes,
+        ns1:establish_daily_priorities,
+        ns1:liaise_with_local_authorities,
+        ns1:manage_logistics,
+        ns1:manage_operational_budgets,
+        ns1:manage_recreational_facility,
+        ns1:manage_supplies,
+        ns1:promote_recreation_activities,
+        ns1:recreation_activities,
+        ns1:represent_the_organisation,
+        ns1:schedule_recreation_facilities,
+        ns1:set_organisational_policies,
+        ns1:supervise_daily_information_operations ;
+    ns1:hasType "Part-time" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=b72d2f29b66972ba&from=jasx&tk=1hgv9cp2sj31j802&vjs=3" .
+
+ns1:Internship_Master_Thesis_Analytics_and_optimization_in_last_mile_logistics a ns1:Job ;
+    rdfs:label "Internship / Master Thesis : Analytics and optimization in last mile logistics" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Lausanne, VD" ;
+    ns1:forCompany ns1:ELCA_Security ;
+    ns1:hasDescription """Job number
+         
+        
+         
+          1361
+          
+        
+        
+         Date posted
+         
+        
+         Oct 06, 2023
+         
+       
+        
+       
+        
+         Job category
+         
+        
+         BI / Big Data 
+        
+        
+         Level of experience
+         
+        
+         0 to 3 years 
+        
+       
+        
+      
+     
+    
+    
+     
+      
+       
+        
+         Job type
+         
+        
+         Full time 
+        
+        
+         Employment type
+         
+        
+         
+          Internship
+          
+        
+       
+        
+       
+        
+         Work site
+         
+        
+         Lausanne 
+        
+        
+         Company
+         
+        
+        
+         
+          ELCA Informatique 
+         
+        
+       
+        
+      
+     
+    
+    
+     
+      
+       
+        Meet our interns
+        
+      
+     
+    
+   
+  
+  
+  
+   
+    
+     About ELCA
+      We are ELCA, one of the largest Swiss IT tribe with over 2,000 experts. We are multicultural with offices in Switzerland, Spain, France, Vietnam and Mauritius. Since 1968, our team of engineers, business analysts, software architects, designers and consultants provide tailor-made and standardized solutions to support the digital transformation of major public administrations and private companies in Switzerland. Our activity spans across multiples fields of leading-edge technologies such as AI, Machine & Deep learning, BI/BD, RPA, Blockchain, IoT and CyberSecurity.
+     
+   
+   
+    
+     
+      Your role
+      
+    
+     
+      ELCA is supporting the Swiss Post in developing the systems and algorithms that will implement the future planning and optimization of mail and parcel delivery, within the “Tourenplanung Next Generation” (TPNG) initiative. Building such a system is a particularly challenging undertaking given the Swiss Post’s current heterogeneous and fragmented planning landscape used to orchestrate a myriad of services and resources (e.g. more than 14’000 mail carriers and vehicles).
+       In this internship, you will be a data scientist in an interdisciplinary team consisting of diverse profiles (data scientists, operational research experts, business analysts, developers, solution architects and business experts). Your main task will be to support the data scientists in one of the TPNG studies that will take place during Spring 2024.
+       The high-interest topics that can be object of study during the internship include:
+      
+        Understand tour-stop patterns and associated delivery points, to predict the optimal vehicle stopping location given a set of mailboxes to be serviced, considering delivery workload and estimated parcel handover times.
+        Investigate the GPS traces of delivery vehicles to determine deviations from the proposed tour plan and their impact on efficiency. Study the integration of implicit feedback from driver behavior (deviations) into the tour planning algorithms, enabling automated improvement of tour structure.
+        Improve existing methodologies and systems to dynamically redirect parcels to the optimal distribution channels.
+        Contribute to the development and refinement of tour sequencing and routing systems that will ultimately produce the planned delivery tours.
+      
+       The scope and objectives and the project will be further defined according to type of the internship (Master Thesis / Industry internship), to the current needs of the Swiss Post, but also to the research interest and desires of the student.
+      
+       Tackle a challenging data science problem in the last mile delivery domain:
+      
+        Understand the available data and the business needs
+        Conduct a literature review to identify suitable solution approaches. Implement, test and analyse them
+      
+       Communicate your findings to business stakeholders and take in their feedbacks
+      
+    
+   
+   
+    
+     
+      Our offer
+      
+    
+     
+      
+       A dynamic work and collaborative environment with a highly motivated multi-cultural and international sites team
+        Personal development through training and coaching
+        A culture of collaboration across all disciplines
+        The chance to make a difference in peoples’ life by building innovative solutions
+        High innovation and research backed up by collaboration with universities like EPFL
+        Various internal coding events (Hackathon, Brownbags), see our technical blog
+        Monthly After-Works organized per locations
+        Good work-life balance (2 days per week from home)
+      
+      
+    
+   
+   
+    
+     
+      Your profile
+      
+    
+     
+      
+       Good data science practices (analysis, experimentation, evaluation, documentation) and a theoretical basis in statistics, machine learning and optimization
+        Ability to understandably communicate your findings to business stakeholders
+        Solid Python skills (data science & ML toolset)
+        Willingness and ability to read and implement research papers
+        English is a must, German is a plus""" ;
+    ns1:hasSkill ns1:advise_supervisors,
+        ns1:create_new_landscape_designs,
+        ns1:design_principles,
+        ns1:develop_architectural_plans,
+        ns1:ecology,
+        ns1:inspect_project_regulations,
+        ns1:landscape_analysis,
+        ns1:landscape_architectural_instruments,
+        ns1:landscape_architecture,
+        ns1:make_accurate_drawings,
+        ns1:manage_landscape_design_projects,
+        ns1:perform_pest_control,
+        ns1:perform_studies_and_field_investigation,
+        ns1:perform_weed_control_operations,
+        ns1:pest_control_in_plants,
+        ns1:plant_disease_control,
+        ns1:review_construction_plans_authorisations,
+        ns1:surveying_methods,
+        ns1:topography ;
+    ns1:hasType "100%",
+        "90-100%",
+        "Internship" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=518a71dfbfba8c24&from=jasx&tk=1hgv9di62j4ql800&vjs=3" .
+
+ns1:Laboratory_TechnicianManager_for_Soft_and_Biohybrid_Robotics_Research a ns1:Job ;
+    rdfs:label "Laboratory Technician/Manager for Soft and Biohybrid Robotics Research" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "8092 Zürich, ZH" ;
+    ns1:forCompany ns1:ETH_Zrich ;
+    ns1:hasDescription """Laboratory Technician/Manager for Soft and Biohybrid Robotics Research 
+ 50%-70%, Zurich, fixed-term
+ 
+   
+ 
+ 
+  The Soft Robotics Lab seeks a highly motivated laboratory technician (50-70%) to support the group’s research in tissue engineering and robotics. The technician will work in the role of lab manager, with the main responsibility of guaranteeing the presence of a functional, active workflow for the researchers. This role requires the Lab Technician to manage our different laboratories (bio lab, chemical lab, fabrication, clean room) and ensure the operation of instruments. The technician will contribute to high-quality research within well-funded projects in an international team of highly motivated researchers. Upon agreement and funding availability, this role could become a full 100% position in the future. 
+ 
+ Project background 
+ 
+  The Soft Robotics Lab, led by Prof. Robert Katzschmann, aims to research soft materials and technologies to realize robots. Our interdisciplinary research group combines the fabrication of synthetic materials, computational sciences, mechanical and electrical engineering, and biology with a focus on tissue engineering. The Soft Robotics Lab is located in the CLA Building of the Department of Mechanical and Processes Engineering within the ETH Zentrum campus in Zurich. 
+ 
+ Job description 
+ 
+  The main responsibilities include: 
+  
+   Ordering and cataloging of consumables/reagents Maintenance and repair of instruments (3D 
+   ers, incubators, autoclave, bio hoods, etc.) 
+   General support for the group’s ongoing research 
+   Support the lab digital infrastructure (website, social media, data servers, file storage systems) 
+  
+ 
+ Your profile 
+ 
+  
+   Interested in contributing to innovation in robotics 
+   Excellent organizational skills 
+   Outstanding ability to document processes and keep them up-to-date 
+   Familiar with inventorying and data storage systems 
+   Willing to undertake education for lab safety 
+   Available to follow lab emergencies when necessary 
+   Problem-solving and hands-on abilities 
+   A team player with excellent communication skills 
+   Previous experience with either cell culture and/or robotic systems (working in a clean room would be a plus but is not required)
+  
+ 
+  
+  
+  
+  
+  
+ 
+ We offer 
+ 
+  ETH Zurich is a family-friendly employer with excellent working conditions. You can look forward to an exciting working environment, cultural diversity, and attractive offers and benefits. In line with our values, ETH Zurich encourages an inclusive culture. We promote equality of opportunity, value diversity, and nurture a working and learning environment in which the rights and dignity of all our staff and students are respected. Visit our Equal Opportunities and Diversity website to learn how we ensure a fair and open environment that allows everyone to grow and flourish.
+   
+  
+ We value diversity 
+ 
+  In line with our values, ETH Zurich encourages an inclusive culture. We promote equality of opportunity, value diversity and nurture a working and learning environment in which the rights and dignity of all our staff and students are respected. Visit our Equal Opportunities and Diversity website to find out how we ensure a fair and open environment that allows everyone to grow and flourish. 
+ 
+ Curious? So are we. 
+ 
+  We look forward to receiving your online application with the following documents: 
+  
+   CV 
+   Motivation letter 
+   Three reference contacts, including their direct phone numbers 
+   
+  Please note that we exclusively accept applications submitted through our online application portal. Applications via email or postal services will not be considered. 
+  Further information about the SRL can be found on our website. Questions regarding the position should be directed to Dr. Miriam Filippi, miriam.filippi@srl.ethz.ch (no applications).""" ;
+    ns1:hasSkill ns1:adapt_to_artists_creative_demands,
+        ns1:assemble_performance_equipment,
+        ns1:draw_up_instrument_setup,
+        ns1:maintain_musical_instruments,
+        ns1:maintain_sound_equipment,
+        ns1:manage_consumables_stock,
+        ns1:perform_technical_sound_check,
+        ns1:prepare_instruments_for_performance,
+        ns1:prepare_personal_work_environment,
+        ns1:prevent_technical_problems_with_musical_instruments,
+        ns1:prevent_undesired_changes_to_sound_design,
+        ns1:repair_musical_instruments,
+        ns1:safeguard_artistic_quality_of_performance,
+        ns1:set_up_equipment_in_a_timely_manner,
+        ns1:store_performance_equipment,
+        ns1:translate_artistic_concepts_to_technical_designs,
+        ns1:tune_instruments_on_stage,
+        ns1:understand_artistic_concepts,
+        ns1:use_communication_equipment,
+        ns1:use_personal_protection_equipment,
+        ns1:use_technical_documentation,
+        ns1:work_ergonomically,
+        ns1:work_safely_with_chemicals,
+        ns1:work_safely_with_machines,
+        ns1:work_safely_with_mobile_electrical_systems_under_supervision,
+        ns1:work_with_respect_for_own_safety ;
+    ns1:hasType "Part-time" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=60f7961c02e4ed0d&from=jasx&tk=1hgv6i23pih2r802&vjs=3" .
+
+ns1:MV_Drives_Power_Electronics_Testing_and_Laboratory_Specialist_80100 a ns1:Job ;
+    rdfs:label "MV Drives Power Electronics Testing and Laboratory Specialist (80-100%)" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "5300 Turgi, AG" ;
+    ns1:forCompany ns1:ABB ;
+    ns1:hasDescription """MV Drives Power Electronics Testing and Laboratory Specialist (80-100%)
+  Take your next career step at ABB with a global team that is energizing the transformation of society and industry to achieve a more productive, sustainable future. At ABB, we have the clear goal of driving diversity and inclusion across all dimensions: gender, LGBTQ+, abilities, ethnicity and generations. Together, we are embarking on a journey where each and every one of us, individually and collectively, welcomes and celebrates individual differences.
+  The Medium Voltage Drives R&D team is in charge of the design and development of the power electronics frequency converters subjected to multiple operation conditions and constraints required on different application fields and industries such as renewables, marine, oil and gas, food industry, metals, water, etc. In such a framework and as part of the Power Electronics and Components R&D team, we are looking for a Power Electronics Testing and Laboratory Lead Specialist that will contribute on the MV Drives system design, specification, testing and qualification of the main drive components and on the certification of different existing and new ABB MV Drives Frequency Converters product families. The role includes the implementation and execution of the validation and qualification testing protocols of components, sub-systems and systems within the internal and external R&D Testing and Laboratories’ infrastructure and facilities for specific MV Drives projects.
+  This position reports to
+  R&D Team Lead
+  Your responsibilities
+ 
+ 
+   R&D Testing and Laboratory Specialist activities aiming the R&D validation and qualification of MV Drives components, sub-systems and systems in the existing and new internal testing setups and areas and in external facilities. This includes planning, practical implementation and execution, analysis and documentation activities of MV Drives’ tests, with close interaction with other R&D engineers, testing and laboratory specialists and technicians. 
+  Member of the MV Drives - Power Electronics and Components R&D team contributing to the design, specification, testing and qualification of the main components and sub-systems of MV frequency converters. The tasks cover the phases from the conceptual design of the Power Electronics Converter Systems using simulation tools to their final validation in the R&D labs.
+   Contribution to the maintenance and further development of the key Power Electronics Technologies Expertise and Know-How of the MV Drives Power Electronics and Components R&D team in testing, validation, and certification.
+   You will be part of advanced R&D activities in the field of power electronics for the existing and next generation of ABB MV Drives products, in close cooperation with a highly qualified senior team of R&D engineers and specialists
+ 
+ 
+  Your background
+ 
+ 
+   University, University of Applied Sciences Bachelor or Master degree, or Equivalent Experience in the field of electrical engineering with focus on Power Electronics testing and validation.
+   Experience and high interest on practical R&D experimentation, testing and validation of Power Electronics converters in Medium Voltage and High-Power testing environment.
+   Know-how and expertise in test systems, equipment and infrastructure related to the validation and qualification of power electronics components and sub-systems testing, including protocols for safety, quality, reliability, and certification.
+   Interest in applied research and development, self-organized, motivated person, that likes to work in a research and development team composed of experts in different domains.
+   Fluency in written and spoken English. German is a plus.
+   Availability to travel sporadically.
+ 
+ 
+  More about us
+  ABB System Drives is a global supplier of high-power, high-performance drives, drive systems and packages for industrial processes and large infrastructure applications. With our industry leading technology and global support, we help our customers, partners and equipment manufacturers with asset reliability, performance improvement and energy efficiency in mission critical applications. Our people and culture are the foundation of our success. We all together make the difference for our customers every day. We look forward to receiving your application (documents submitted in English are appreciated). The recruiting process is being led by Peter Reinhardt, Talent Partner ABB Switzerland Ltd. If you want to discover more about ABB, take another look at our website www.abb.com. ABB Data Privacy Statement: https://new.abb.com/privacy-notice/candidate Work model: hybrid #LI-hybrid""" ;
+    ns1:hasSkill ns1:ensure_compliance_with_environmental_legislation,
+        ns1:ensure_regulatory_compliance_in_pipeline_infrastructures,
+        ns1:hydraulics,
+        ns1:measure_water_quality_parameters,
+        ns1:monitor_water_quality,
+        ns1:perform_followup_on_pipeline_route_services,
+        ns1:perform_water_testing_procedures,
+        ns1:types_of_pipelines,
+        ns1:use_personal_protection_equipment,
+        ns1:water_policies ;
+    ns1:hasType "90-100%" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=f129c075319b1be8&from=jasx&tk=1hgv971sfih26800&vjs=3" .
+
+ns1:Master_of_Advanced_Studies_In_Sport_Management_Technology_Degree a ns1:Job ;
+    rdfs:label "Master of Advanced Studies In Sport Management & Technology Degree" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Geneva, GE" ;
+    ns1:forCompany ns1:AISTS_International_Academy_of_Sports_Science_and_Technology ;
+    ns1:hasDescription """The primary mission of AISTS is to master sport by positively contributing to sports management through a multidisciplinary approach to education and sciences and by remaining at the forefront of the sports industry’s development and the Olympic movement’s evolution. 
+  The AISTS focuses its activities around three pillars:
+   
+   Education Applied Research Connections
+   
+   The AISTS office is located in Lausanne – the Olympic Capital – on the shores of Lake Geneva, surrounded by a breath-taking view of the Alps. Home to the International Olympic Committee, the surrounding region hosts over 60 international sport organisations, together with a concentration of internationally renowned universities and research centres. The AISTS is a non-profit organisation, founded in 2000 by the International Olympic Committee (IOC), the EPFL, University of Geneva (UNIGE), University of Lausanne (UNIL), IMD Business School, Ecole Hôtelière de Lausanne (EHL), City of Lausanne and Canton of Vaud. 
+  AISTS MAS - MASTER IN SPORT MANAGEMENT AND TECHNOLOGY As an academy, the mission of the AISTS is to generate rigorous and relevant knowledge and provide high quality education in order to prepare sport administrators to satisfy the needs and expectations of the sports industry. To achieve this, the AISTS has offered the AISTS MAS (Master of Advanced Studies in Sports Management and Technology) since 2003; a unique international postgraduate degree taught over 15 months in Lausanne. The AISTS MAS degree is co-signed by AISTS, EPFL, University of Geneva and University of Lausanne. Sport managers today need a broad knowledge base to understand the various issues facing sport organisations and federations. With this in mind, the academy’s primary goal is to provide a multidisciplinary approach to sports management education. To accomplish this goal, the AISTS applies the following scientific Modules to sport: 
+  
+   Management 
+   Technology 
+   Law 
+   Medicine 
+   Sociology 
+   Careers 
+   
+  The teaching approach combines relevant case studies, field observations, interactive seminars, online teaching, and on-site visits organised as part of the Transdisciplinary topics. An international staff of more than 100 lecturers and speakers teaches the participants. Professionals from the sports industry teach 50% of the classes, while lecturers from academic institutions lead the other 50%. AISTS academic lecturers are professors from the leading universities in Europe and beyond, while speakers from the field are directors and project leaders from: 
+  
+   World sports organisations such as the International Olympic Committee, Fédération Internationale des Sports Universitaires (FISU), International Association of Summer Olympic International Federations (ASOIF), Global Association of International Sports Federations (GAIFS), International Paralympic Committee (IPC), etc. 
+   International sport federations from sports such as volleyball, skiing, football, basketball, archery, rowing, athletics, tennis, squash, modern pentathlon, gymnastics, swimming, hockey, cycling, air sports, etc. 
+   Sports companies (agencies, media, consulting etc) such as Infront, CAA Eleven, European Broadcast Union (EBU), European Club Affairs, LaLiga, Event Knowledge Services, Sports Recruitment International, Shankai Sports, etc. 
+   Sports event organisers such as Youth Olympic Games Lausanne 2020, Rio 2016, Freeride World Tour, Geneva Open, etc. 
+   Governmental, intergovernmental and non-governmental organisations such as the World Anti-Doping Agency, Court of Arbitration for sport, UNICEF, ILO, WHO, etc 
+   
+  The program aims to provide participants with a 360° view of sports administration, together with tools to further develop their career and leadership. The MAS classroom is located on the University of Lausanne campus, in the Synathlon building, which is part of a centre for sport education and research, hosting various other sporting institutions. 
+  
+  The AISTS MAS includes: 
+  
+   9 months of teaching (lectures, case studies, activities, seminars and field trips), including exams and assignments (academic year from the September to May) 
+   7.5 months on the Team Project 
+   A minimum of 3 months work experience in the sports industry""" ;
+    ns1:hasSkill ns1:apply_foreign_languages_in_tourism,
+        ns1:assist_at_checkin,
+        ns1:assist_clients_with_special_needs,
+        ns1:build_a_network_of_contacts_with_suppliers_of_tourist_services,
+        ns1:build_business_relationships,
+        ns1:check_travel_documentation,
+        ns1:coordinate_performance_tours,
+        ns1:geographical_areas_relevant_to_tourism,
+        ns1:handle_personal_identifiable_information,
+        ns1:handle_veterinary_emergencies,
+        ns1:inform_tourist_groups_on_logistical_times,
+        ns1:liaise_with_guest_facilities_providers,
+        ns1:local_area_tourism_industry,
+        ns1:maintain_customer_service,
+        ns1:manage_health_and_safety_standards,
+        ns1:organise_entry_to_attractions,
+        ns1:organise_transportation_of_tour_groups,
+        ns1:oversee_travel_arrangements,
+        ns1:perform_services_in_a_flexible_manner,
+        ns1:welcome_tour_groups ;
+    ns1:hasType "Part-time" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=c4c637a473dcfd8f&from=jasx&tk=1hgv9h6je2cj5001&vjs=3" .
+
+ns1:PRODUCT_DEVELOPER_DENIM_INTERN a ns1:Job ;
+    rdfs:label "PRODUCT DEVELOPER DENIM INTERN" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "6855 Stabio, TI" ;
+    ns1:forCompany ns1:Guess_Europe_Sagl ;
+    ns1:hasDescription """Established in 1981, GUESS began as a jeans company and has since successfully grown into a global lifestyle brand. Guess?, Inc. designs, markets, distributes and licenses a lifestyle collection of contemporary apparel, denim, handbags, watches, eyewear, footwear and other related consumer products. For more information about the Company, please visit www.guess.com. 
+  At Guess, we are committed to our people and to the world as a team working to be a sustainable global leader in the fashion industry. Through principled leadership, we embrace diversity and cultivate the strength, pride and passion for what we do. Everyone in guess is aware the fact that everyone contributes to progress and make company grow, 
+  We are a big family united by great human values: belief, hope, destiny, trust and respect. 
+ The role is designed for those people ready to take new challenges, being courageous trying new things and with the will to make an impact in the company and in their career. 
+ If you are inspired to evaluate new amazing professional challenges, this is the opportunity right for you!
+  
+  
+  
+ Position: 
+ 
+  
+ PURPOSE OF THE JOB
+ 
+  The Product Developer Apparel Intern will be responsible for researching, developing and launching new products for the assigned denim lines. 
+  He/she will be responsible for product development and planning throughout the product lifecycle, including gathering and prioritizing product requirements, working closely with Design, Sales and Marketing departments and ensuring that revenue and customer satisfaction goals are met. 
+  He/she will also ensure that the product is aligned with the strategy and goals of the business.
+ 
+  CORE JOB RESPONSIBILITIES
+  
+ 
+  
+   Attends collection briefing to get SKU plan and product insights from merchandiser on future season 
+  Oversee and manage product process in line with the business goals and objectives 
+  Maintain calendar to ensure that all sample deadlines are met 
+  Works with designers and model makers to launch and develop new seasonal collection 
+  Source raw materials as needed for Designers and factories 
+  Create specification sheets for all new products created 
+  Manage quality control of production and approve and troubleshoot top samples 
+  Fitting of prototypes 
+  Check the lab-dip and the art-work of production with sizes developments 
+  Work with product management team to ensure an efficient process 
+  Participate in cross-functional teams to execute product development plan 
+  Work in synergy with design, production, quality control and tech design offices 
+  Realize and follow-up technical cards with suppliers 
+  Communicate daily with factories for progress of samples and troubleshoot any product development issues 
+  Negotiate costs with factories to meet targets and margin goals 
+  Visit factories and resolve issues as required 
+  Manage costs and referencing of styles 
+  Meet locally specialized vendors 
+  Attend fashion and textile shows 
+  Provide SKU analysis as needed
+ 
+ 
+  Requirements: 
+ 
+  Degree in Fashion Design, Product Management or similar 
+  Must prove to have a clear understanding of the Guess Brand DNA 
+  Passion for Denim 
+  Must have excellent organizational skills with attention to detail and follow-up 
+  Excellent interpersonal and communication skills with the ability to interact with a diverse group at all level 
+  Problem solving and negotiating skills 
+  Flexible in ever-changing, fast paced environment 
+  Deadline driven with a track record of delivering excellent results on time 
+  Extensive computer experience including but not limited to Microsoft: Excel, Word, Outlook, PowerPoint, Adobe Illustrator, Photoshop etc. 
+  Fluent English. Any additional language is considered a plus""" ;
+    ns1:hasSkill ns1:attend_castings,
+        ns1:develop_professional_network,
+        ns1:ensure_cooperation_among_production_costume_department_and_makeup_department,
+        ns1:harmonise_body_movements,
+        ns1:maintain_an_artistic_portfolio,
+        ns1:maintain_personal_hygiene_standards,
+        ns1:makeup_techniques,
+        ns1:manage_personal_professional_development,
+        ns1:photography,
+        ns1:pose_in_front_of_a_camera,
+        ns1:show_intercultural_awareness ;
+    ns1:hasType "Internship" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=7c48a398b9d32008&from=jasx&tk=1hgv6nf47i6nj800&vjs=3" .
+
+ns1:PUBLIC_INFORMATION_OFFICER_Temporary_Job_Opening a ns1:Job ;
+    rdfs:label "PUBLIC INFORMATION OFFICER (Temporary Job Opening)" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "1211 Geneva, GE" ;
+    ns1:forCompany ns1:United_Nations ;
+    ns1:hasDescription """Job Opening
+ 
+  Job Opening ID: 223076
+  Job Network : Public Information and Conference Management
+  Job Family : Public Information
+  Category and Level : Professional and Higher Categories, P-3 
+  Duty Station : GENEVA 
+  
+ Department/Office : United Nations Conference on Trade and Development
+  Date Posted : Nov 30, 2023  
+ Deadline : Dec 7, 2023
+
+ 
+
+
+ 
+  
+   Org. Setting and Reporting 
+  
+  
+  
+   
+    This position is located in the Automated System for Customs Data (ASYCUDA) Programme, in the Division on Technology and Logistics (DTL) of the United Nations Conference on Trade and Development (UNCTAD). The incumbent will report to the Head of Programme.
+   
+  
+ 
+ 
+  
+    Responsibilities 
+  
+ 
+ 
+ 
+  
+   Competencies 
+  
+ 
+ 
+ 
+  
+   Education 
+  
+ 
+ 
+ 
+  
+   Job - Specific Qualification 
+  
+ 
+ 
+ 
+  
+   Work Experience 
+  
+ 
+ 
+ 
+  
+   Languages 
+  
+ 
+ 
+ 
+  
+   Assessment 
+  
+ 
+ 
+ 
+  
+   Special Notice 
+  
+ 
+ 
+ 
+  
+   United Nations Considerations 
+  
+ 
+ 
+ 
+  
+   No Fee""" ;
+    ns1:hasSkill ns1:build_international_relations,
+        ns1:business_strategy_concepts,
+        ns1:competition_law,
+        ns1:corporate_law,
+        ns1:develop_trade_policies,
+        ns1:economics,
+        ns1:establish_collaborative_relations,
+        ns1:government_policy_implementation,
+        ns1:inspect_government_policy_compliance,
+        ns1:international_commercial_transactions_rules,
+        ns1:international_import_export_regulations,
+        ns1:maintain_relations_with_local_representatives,
+        ns1:market_analysis,
+        ns1:perform_market_research,
+        ns1:promote_free_trade ;
+    ns1:hasType "Temporary / Staffing" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=4abe2dad9db99baf&from=jasx&tk=1hgv99hpu29qg003&vjs=3" .
+
+ns1:Purchaser a ns1:Job ;
+    rdfs:label "Purchaser" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Basel, BS" ;
+    ns1:forCompany ns1:Jet_Aviation ;
+    ns1:hasDescription """This position is responsible for the procurement of parts, material, and services in accordance with the applicable Aviation Regulations and company procedures as well as the order processing (price control of material and delivery date of material should correspond to customer request), reminder process for open orders, off core tracking. 
+   
+  
+  
+   
+     Main Responsibilities 
+   
+   
+    
+     Negotiate favorable terms, volume discounts, prepare and process requisitions and purchase orders for indirect Material 
+     Review purchase order claims and contracts for conformance to company policy, and discuss defects and delivery problems with suppliers and negotiate refunds 
+     Typical operative Purchasing activities with high demand of short material lead times in a pure project environment 
+     Administrate purchase orders with all its content like invoice control, blocked shipments, material search on the market etc. 
+     Intense contact with internal stakeholders and supplier Duty is part of this job profile 
+    
+   
+  
+  
+   
+    Minimum Requirements 
+   
+   
+    
+     Job relevant vocational training/ technical apprenticeship or equivalent work experience of 2-4 years 
+     High School or commercial school in Logistics; project purchasing background 
+     Solid skills in Purchasing or generally SCM 
+     Understanding of the aerospace industry, OEMs, and the regulatory framework is beneficial 
+     Good communication skills 
+     Very good knowledge of written and spoken English 
+     Proficiency in IT usage (MS Office, SAP) 
+    
+   
+  
+  
+   
+    Desired Characteristics 
+   
+   
+    
+     Results driven, able to execute with high personal accountability 
+     Customer focused/externally focused, strong market perspective 
+     High busi ness and financial acumen 
+     Strong influencing skills 
+     
+   
+  
+ 
+ If you are interested in a multicultural, challenging and innovative working environment and your profile matches our requirements, we are looking forward to receiving your online application in English.""" ;
+    ns1:hasSkill ns1:apply_procurement,
+        ns1:assess_supplier_risks,
+        ns1:compare_contractors_bids,
+        ns1:coordinate_purchasing_activities,
+        ns1:embargo_regulations,
+        ns1:ensure_compliance_with_purchasing_and_contracting_regulations,
+        ns1:export_control_principles,
+        ns1:have_computer_literacy,
+        ns1:identify_suppliers,
+        ns1:international_import_export_regulations,
+        ns1:issue_purchase_orders,
+        ns1:maintain_relationship_with_customers,
+        ns1:maintain_relationship_with_suppliers,
+        ns1:manage_contracts,
+        ns1:manage_purchasing_cycle,
+        ns1:manage_tender_processes,
+        ns1:speak_different_languages,
+        ns1:supply_chain_management,
+        ns1:track_price_trends ;
+    ns1:hasType "No information" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=1edb8569e09ef2ba&from=jasx&tk=1hgv6qvhnj32l800&vjs=3" .
+
+ns1:Senior_Software_Quality_Engineer a ns1:Job ;
+    rdfs:label "Senior Software Quality Engineer" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Dättwil, AG" ;
+    ns1:forCompany ns1:Varian_Medical_Systems ;
+    ns1:hasDescription """Together, we can beat cancer.
+ 
+ 
+   At Varian, a Siemens Healthineers Company, we bring together the world's best talent to realize our vision of a world without fear of cancer. Together, we work passionately to develop and deliver easy-to-use, efficient oncology solutions.
+ 
+ 
+ 
+   We are part of an incredible community of scientists, clinicians, developers, researchers, professionals, and skilled specialists pushing the boundaries of what’s possible, to improve people’s lives around the world. We embrace a culture of inclusivity in which the power and potential of every individual can be unleashed. We spark ideas that lead to positive impact and continued success.
+ 
+ 
+ 
+   If you want to be part of this important mission, we want to hear from you.
+ 
+  In this role, you will be part of the Ethos organization. Our teams develop and provision medical devices in the field of adaptive radiotherapy. Ethos is an innovative solution that has been recently released and is taking radiotherapy to the next level, helping patients all around the globe. Our goal is to provide more patients access to a high-quality standard of personalized cancer care.
+  
+  As a Software Quality Engineer, you will be responsible for designing, planning, and executing test activities. You will be embedded in a cross-functional scrum team where you collaborate with software developers, product managers, DevOps, and clinical experts. You will actively engage with SQE teams from sites in Baden, Helsinki and Budapest fostering effective cooperation and ensuring consistent implementation of quality processes across diverse locations.
+  
+  This is an excellent opportunity for SQEs interested in working on innovative software and improving the lives of millions of patients through our cancer care software across the globe.
+ 
+ 
+  
+   
+     Your Responsibilities:
+   
+  
+  
+   
+    
+     
+       Develop, modify, and execute software test plans efficiently and timely to advance, apply, and maintain quality standards for cancer treatment products.
+     
+    
+     
+       Refine requirements together with the team into testable product specifications.
+     
+    
+     
+       Collaborate across teams to ensure effective and efficient system testing.
+     
+    
+     
+       Help manage and drive test schedules and related activities.
+     
+    
+     
+       Perform hands-on installation and configuration of Software components for verification and validation.
+     
+    
+     
+       Identify and document encountered software defects.
+     
+    
+     
+       Maintain documentation of test results to assist in debugging and modification of software.
+     
+    
+     
+       Analyze test results to ensure existing functionality and recommend corrective actions.
+     
+   
+  
+  
+  
+   
+     Minimum Qualifications
+   
+  
+  
+   
+    
+     
+       Bachelor’s degree in Computer Science, a related technical field, or equivalent work experience.
+     
+    
+     
+       7+ years of professional work experience in testing of software in agile teams
+     
+    
+     
+       Experience in collaborating with cross-functional teams to drive continuous improvement
+     
+    
+     
+       Strong knowledge of software testing methodology, industry standard testing, and bug tracking tools.
+     
+    
+     
+       Excellent written and verbal communication (English) .
+     
+    
+     
+       Ability to work independently with minimal supervision.
+     
+    
+     
+       Solid understanding of software development life cycle.
+     
+   
+  
+ 
+ 
+ 
+  
+   
+     Preferred Qualifications
+   
+  
+  
+   
+    
+     
+       Experience with test automation.
+     
+    
+     
+       Experience with Medical device testing in software/hardware integration is highly desired.
+     
+   
+  
+  
+  
+   
+     What's in it for you
+   
+  
+  
+   
+    
+     
+       Flexible working model such as working from home and flexible working hours
+     
+    
+     
+       Various professional and personal growth opportunities
+     
+    
+     
+       Competitive salary, compensation and benefits package
+     
+   
+   
+   
+     To all recruitment agencies: Varian does not accept agency resumes. Please do not forward resumes to our job alias, employees, or any other company location. Varian is not responsible for any fees related to unsolicited resumes.
+   
+   
+   
+     #LI-OS1
+   
+  
+ 
+ 
+ 
+   Varian is required to comply with all local and applicable regulations that may be associated with vaccine requirements for certain roles.
+ 
+ 
+ 
+  
+   
+    
+     
+      
+       
+        
+          Fighting cancer calls for big ideas.
+        
+        
+        
+          We envision a world without fear of cancer. Achieving this vision takes dedication and commitment from all of us, every single day. That's why we celebrate and value the distinctly beautiful and intersectional identities of each of our employees. We are a mirror of our patient-base, which allows us to innovate. Big ideas come from everywhere, and the best ideas are fostered by our unique individual experiences. At Varian, we encourage you to bring your whole self to work and believe your bold and authentic perspective will help to power more victories over cancer.
+        
+        
+        
+          #TogetherWeFight""" ;
+    ns1:hasSkill ns1:apply_scientific_methods,
+        ns1:communication,
+        ns1:communication_studies,
+        ns1:conduct_qualitative_research,
+        ns1:conduct_quantitative_research,
+        ns1:develop_communication_strategies,
+        ns1:manage_personal_professional_development,
+        ns1:media_studies,
+        ns1:mentor_individuals,
+        ns1:perform_project_management,
+        ns1:perform_scientific_research,
+        ns1:publish_academic_research,
+        ns1:scientific_research_methodology,
+        ns1:speak_different_languages,
+        ns1:types_of_media,
+        ns1:use_data_processing_techniques,
+        ns1:write_scientific_papers ;
+    ns1:hasType "100%",
+        "90-100%" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=34e779e941cf84d8&from=jasx&tk=1hgv9l1c5ir3q803&vjs=3" .
+
+ns1:Technical_Lead_Heart_of_Stigma a ns1:Job ;
+    rdfs:label "Technical Lead, Heart of Stigma" ;
+    ns1:atCountry ns1:CH ;
+    ns1:atLocation "Geneva, GE" ;
+    ns1:forCompany ns1:IAS_the_International_AIDS_Society ;
+    ns1:hasDescription """About the IAS 
+ IAS – the International AIDS Society – convenes, educates and advocates for a world in which HIV no longer presents a threat to public health and individual well-being. After the emergence of HIV and AIDS, concerned scientists created the IAS to bring together experts from across the world and disciplines to promote a concerted HIV response. Today, the IAS and its members unite scientists, policy makers and activists to galvanize the scientific response, build global solidarity and enhance human dignity for all those living with and affected by HIV. The IAS also hosts the world’s most prestigious HIV conferences: the International AIDS Conference, the IAS Conference on HIV Science and the HIV Research for Prevention Conference. 
+ More information on the IAS can be found at: www.iasociety.org. 
+ Details of employment 
+ The Technical Lead, Heart of Stigma will be based in Geneva, Switzerland. The IAS offers the possibility of working from the legal residence for up to 11 days per month for Swiss-based employees and up to eight days per month for French border-zone employees. The Technical Lead, Heart of Stigma will report to the Senior Technical Advisor, HIV Programmes and Advocacy. The position is full-time and short term to start as soon as possible for a maximum of 18 months. 
+ The IAS is open to exploring other possible work arrangements, which will be discussed during the selection process, depending on the status and background of the applicant.
+  Purpose of the position
+  The Technical Lead, Heart of Stigma will provide technical leadership for the IAS Heart of Stigma programme, which supports stakeholders in the HIV response in scaling up efforts to eliminate HIV-related stigma and discrimination. To do so, the incumbent will:
+  
+  Closely monitor developments in HIV-related stigma and discrimination and engage with other stakeholders in the field. 
+  Lead the implementation of the Heart of Stigma programme, bringing attention to HIV-related stigma and the effectiveness of stigma-mitigation efforts. 
+  Collaborate with different IAS teams to accurately reflect and adequately position HIV-related stigma and discrimination across IAS activities. 
+ 
+ Main responsibilities 
+ Programmatic strategy and leadership:Provide strategic direction to the programme in alignment with the theory of change and broader IAS strategy, including: 
+ 
+  Overseeing efforts to convene communities of practice with a focus on six countries in relation to stigma and engage with stakeholders to foster and strengthen a sustained and coordinated response to stigma 
+  Routinely updating the stakeholder mapping of key actors and institutions involved in stigma-reduction efforts related to HIV, public health and other disciplines 
+  Coordinating the development of a self-assessment tool for countries to track and measure progress towards the elimination of HIV-related stigma and discrimination 
+  Providing thought leadership on HIV stigma, including through the drafting and development of academic papers about stigma and related programme priorities 
+  Serving as a spokesperson for the IAS on the importance of removing stigma as a barrier to accessing quality and comprehensive health services. 
+  Managing the grant implementation of the Getting to the Heart of Stigma project, including developing the programmatic workplan towards achieving programme outcomes, overseeing the budget, and leading progress monitoring and evaluation 
+  Mentoring and managing staff and consultants and facilitating internal capacity building on stigma 
+  Collaborating across IAS departments for the effective implementation of the project, including with the IAS departments of Communications and Public Affairs, Governance, Membership and Learning, Development and Performance, and Conferences. 
+  Convening the IAS Stigma Advisory Board, including preparation of agendas and overseeing follow-up actions 
+  Strengthening existing partnerships with experts in HIV-related stigma and developing new collaborations with experts on stigma in other disciplines 
+  Developing concept notes and funding proposals to expand the portfolio of work in key related areas, such as reducing self-stigma and stigma within healthcare settings, in collaboration with the Development and Performance team 
+ 
+ Project coordination and implementation:Lead the operational management of IAS activities on stigma by:
+  
+  Managing the grant implementation of the Getting to the Heart of Stigma project, including developing the programmatic workplan towards achieving programme outcomes, overseeing the budget, and leading progress monitoring and evaluation 
+  Mentoring and managing staff and consultants and facilitating internal capacity building on stigma 
+  Collaborating across IAS departments for the effective implementation of the project, including with the IAS departments of Communications and Public Affairs, Governance, Membership and Learning, Development and Performance, and Conferences. 
+ 
+ Stakeholder engagement and partnership development:Managing critical relationships with funders, global normative agencies, key implementing partners and others by:
+  
+ 
+  Convening the IAS Stigma Advisory Board, including preparation of agendas and overseeing follow-up actions 
+  Strengthening existing partnerships with experts in HIV-related stigma and developing new collaborations with experts on stigma in other disciplines 
+  Developing concept notes and funding proposals to expand the portfolio of work in key related areas, such as reducing self-stigma and stigma within healthcare settings, in collaboration with the Development and Performance team 
+ 
+ Contribute to other programmatic areas in the HIV Programmes and Advocacy department, including any additional tasks requested by the Senior Technical Advisor and Director, HIV Programmes and Advocacy.
+  Requirements
+  Academic qualifications 
+ 
+  An advanced degree in public health, law, human rights, international relations, development or other relevant discipline, ideally including a focus on stigma 
+  Excellent knowledge of HIV-related stigma and discrimination, preferably in an international context, as well as established networks across HIV-related stigma and discrimination science, programmes and advocacy 
+  Ability to self-motivate, propose and implement strategic initiatives in evolving environments 
+  Strong sense of diplomacy and excellent stakeholder management and cross-cultural interpersonal skills 
+  Excellent writing and communication skills and the ability to represent the programme and speak in public 
+  Be organized and systematic 
+  Ability to work both independently and as part of a team 
+ 
+ Experience 
+ 
+  At least seven years’ work experience in a similar position 
+  Experience in working with a diversity of stakeholders in a convening and facilitating role 
+  Considerable experience in – and passion and commitment to addressing – HIV-related stigma and discrimination 
+  Considerable experience writing for diverse audiences, ideally including scientific writing and academic publications, strategy documents, donor reports and programmatic guidance documents 
+  Although not essential for this position, the IAS acknowledges the value of the experience of living with HIV and will consider this when evaluating applications 
+ 
+ Skills/competencies 
+ 
+  Excellent knowledge of HIV-related stigma and discrimination, preferably in an international context, as well as established networks across HIV-related stigma and discrimination science, programmes and advocacy 
+  Ability to self-motivate, propose and implement strategic initiatives in evolving environments 
+  Strong sense of diplomacy and excellent stakeholder management and cross-cultural interpersonal skills 
+  Excellent writing and communication skills and the ability to represent the programme and speak in public 
+  Be organized and systematic 
+  Ability to work both independently and as part of a team 
+ 
+ Languages
+  
+ 
+  Excellent verbal and written communication skills with full professional fluency in English is required. 
+  Knowledge of other languages is an asset. 
+ 
+ Benefits
+  The IAS provides generous benefits that include, for example, an enhanced pension and social security package, an annual leave entitlement above the legal requirement, annual allowances for professional development and health promotion, flexible working hours, and the possibility to work up to 50% from home. #LI-hybrid
+  Work environment
+  The IAS Secretariat in Geneva is a dynamic and diverse workplace that brings together public health, HIV science, conferencing, programme management and other specialists who all share the IAS vision of a world in which HIV no longer presents a threat to public health and individual well-being. We thrive on an exceptional team spirit, put trust in our colleagues’ professionalism and value new ideas. The IAS promotes a flexible and collaborative workplace that encourages employees to grow their skills and competencies.
+  The IAS is committed to ensuring a diverse, equitable and inclusive work environment and to the greater involvement of people living with HIV (GIPA) in all aspects of our work. To help us achieve this, we welcome applications from all qualified candidates who share the IAS values (learn more here), regardless of their sex, gender identity, sexual orientation, HIV status, race, national origin, cultural or ethnic background, disability, religion or age.
+  How to apply
+  Interested and qualified candidates should send us, in English, their CV and a cover letter describing their motivation for the role.""" ;
+    ns1:hasSkill ns1:advise_on_financial_matters,
+        ns1:analyse_business_objectives,
+        ns1:analyse_business_requirements,
+        ns1:business_analysis,
+        ns1:business_processes,
+        ns1:funding_methods,
+        ns1:identify_clients_needs,
+        ns1:inform_on_government_funding,
+        ns1:manage_government_funding,
+        ns1:perform_business_analysis,
+        ns1:use_consulting_techniques ;
+    ns1:hasType "Temporary / Staffing" ;
+    ns1:hasURL "https://ch.indeed.com/rc/clk?jk=1cdb91176982591a&from=jasx&tk=1hgv9lop6ih2o801&vjs=3" .
+
+ns1:atCountry a rdf:Property ;
+    rdfs:domain ns1:Job ;
+    rdfs:range ns1:Country .
+
+ns1:atLocation a rdf:Property .
+
+ns1:forCompany a rdf:Property ;
+    rdfs:domain ns1:Job ;
+    rdfs:range ns1:Company .
+
+ns1:hasDescription a rdf:Property .
+
+ns1:hasSkill a rdf:Property ;
+    rdfs:domain ns1:Job ;
+    rdfs:range ns1:Skill .
+
+ns1:hasType a rdf:Property .
+
+ns1:hasURL a rdf:Property .
+
+ns1:ABB a ns1:Company ;
+    rdfs:label "ABB" .
+
+ns1:AISTS_International_Academy_of_Sports_Science_and_Technology a ns1:Company ;
+    rdfs:label "AISTS International Academy of Sports Science and Technology" .
+
+ns1:ALPADIA_Language_Schools_SA a ns1:Company ;
+    rdfs:label "ALPADIA Language Schools SA" .
+
+ns1:Amentum a ns1:Company ;
+    rdfs:label "Amentum" .
+
+ns1:BRP a ns1:Company ;
+    rdfs:label "BRP" .
+
+ns1:ELCA_Security a ns1:Company ;
+    rdfs:label "ELCA Security" .
+
+ns1:ETH_Zrich a ns1:Company ;
+    rdfs:label "ETH Zürich" .
+
+ns1:Guess_Europe_Sagl a ns1:Company ;
+    rdfs:label "Guess Europe Sagl" .
+
+ns1:IAS_the_International_AIDS_Society a ns1:Company ;
+    rdfs:label "IAS - the International AIDS Society" .
+
+ns1:International_Rescue_Committee a ns1:Company ;
+    rdfs:label "International Rescue Committee" .
+
+ns1:Jet_Aviation a ns1:Company ;
+    rdfs:label "Jet Aviation" .
+
+ns1:PATH a ns1:Company ;
+    rdfs:label "PATH" .
+
+ns1:Planetary_SA a ns1:Company ;
+    rdfs:label "Planetary SA" .
+
+ns1:United_Nations a ns1:Company ;
+    rdfs:label "United Nations" .
+
+ns1:Varian_Medical_Systems a ns1:Company ;
+    rdfs:label "Varian Medical Systems" .
+
+ns1:adapt_to_artists_creative_demands a ns1:Skill ;
+    rdfs:label "adapt to artists' creative demands" .
+
+ns1:advise_on_efficiency_improvements a ns1:Skill ;
+    rdfs:label "advise on efficiency improvements" .
+
+ns1:advise_on_financial_matters a ns1:Skill ;
+    rdfs:label "advise on financial matters" .
+
+ns1:advise_supervisors a ns1:Skill ;
+    rdfs:label "advise supervisors" .
+
+ns1:analyse_business_objectives a ns1:Skill ;
+    rdfs:label "analyse business objectives" .
+
+ns1:analyse_business_plans a ns1:Skill ;
+    rdfs:label "analyse business plans" .
+
+ns1:analyse_business_processes a ns1:Skill ;
+    rdfs:label "analyse business processes" .
+
+ns1:analyse_business_requirements a ns1:Skill ;
+    rdfs:label "analyse business requirements" .
+
+ns1:analyse_samples_of_food_and_beverages a ns1:Skill ;
+    rdfs:label "analyse samples of food and beverages" .
+
+ns1:analyse_staff_capacity a ns1:Skill ;
+    rdfs:label "analyse staff capacity" .
+
+ns1:apply_GMP a ns1:Skill ;
+    rdfs:label "apply GMP" .
+
+ns1:apply_HACCP a ns1:Skill ;
+    rdfs:label "apply HACCP" .
+
+ns1:apply_foreign_languages_in_tourism a ns1:Skill ;
+    rdfs:label "apply foreign languages in tourism" .
+
+ns1:apply_procurement a ns1:Skill ;
+    rdfs:label "apply procurement" .
+
+ns1:apply_requirements_concerning_manufacturing_of_food_and_beverages a ns1:Skill ;
+    rdfs:label "apply requirements concerning manufacturing of food and beverages" .
+
+ns1:apply_scientific_methods a ns1:Skill ;
+    rdfs:label "apply scientific methods" .
+
+ns1:assemble_performance_equipment a ns1:Skill ;
+    rdfs:label "assemble performance equipment" .
+
+ns1:assess_supplier_risks a ns1:Skill ;
+    rdfs:label "assess supplier risks" .
+
+ns1:assess_the_feasibility_of_implementing_developments a ns1:Skill ;
+    rdfs:label "assess the feasibility of implementing developments" .
+
+ns1:assist_at_checkin a ns1:Skill ;
+    rdfs:label "assist at check-in" .
+
+ns1:assist_clients_with_special_needs a ns1:Skill ;
+    rdfs:label "assist clients with special needs" .
+
+ns1:attend_castings a ns1:Skill ;
+    rdfs:label "attend castings" .
+
+ns1:biotechnology a ns1:Skill ;
+    rdfs:label "biotechnology" .
+
+ns1:build_a_network_of_contacts_with_suppliers_of_tourist_services a ns1:Skill ;
+    rdfs:label "build a network of contacts with suppliers of tourist services" .
+
+ns1:build_business_relationships a ns1:Skill ;
+    rdfs:label "build business relationships" .
+
+ns1:build_international_relations a ns1:Skill ;
+    rdfs:label "build international relations" .
+
+ns1:business_processes a ns1:Skill ;
+    rdfs:label "business processes" .
+
+ns1:business_strategy_concepts a ns1:Skill ;
+    rdfs:label "business strategy concepts" .
+
+ns1:characteristics_of_products a ns1:Skill ;
+    rdfs:label "characteristics of products" .
+
+ns1:characteristics_of_services a ns1:Skill ;
+    rdfs:label "characteristics of services" .
+
+ns1:check_travel_documentation a ns1:Skill ;
+    rdfs:label "check travel documentation" .
+
+ns1:clean_up_spilled_oil a ns1:Skill ;
+    rdfs:label "clean up spilled oil" .
+
+ns1:communication a ns1:Skill ;
+    rdfs:label "communication" .
+
+ns1:communication_studies a ns1:Skill ;
+    rdfs:label "communication studies" .
+
+ns1:compare_contractors_bids a ns1:Skill ;
+    rdfs:label "compare contractors' bids" .
+
+ns1:competition_law a ns1:Skill ;
+    rdfs:label "competition law" .
+
+ns1:conduct_qualitative_research a ns1:Skill ;
+    rdfs:label "conduct qualitative research" .
+
+ns1:conduct_quantitative_research a ns1:Skill ;
+    rdfs:label "conduct quantitative research" .
+
+ns1:conduct_routine_machinery_checks a ns1:Skill ;
+    rdfs:label "conduct routine machinery checks" .
+
+ns1:consult_technical_resources a ns1:Skill ;
+    rdfs:label "consult technical resources" .
+
+ns1:coordinate_operational_activities a ns1:Skill ;
+    rdfs:label "coordinate operational activities" .
+
+ns1:coordinate_performance_tours a ns1:Skill ;
+    rdfs:label "coordinate performance tours" .
+
+ns1:coordinate_purchasing_activities a ns1:Skill ;
+    rdfs:label "coordinate purchasing activities" .
+
+ns1:coordinate_with_other_emergency_services a ns1:Skill ;
+    rdfs:label "coordinate with other emergency services" .
+
+ns1:corporate_law a ns1:Skill ;
+    rdfs:label "corporate law" .
+
+ns1:create_a_work_atmosphere_of_continuous_improvement a ns1:Skill ;
+    rdfs:label "create a work atmosphere of continuous improvement" .
+
+ns1:create_new_landscape_designs a ns1:Skill ;
+    rdfs:label "create new landscape designs" .
+
+ns1:create_solutions_to_problems a ns1:Skill ;
+    rdfs:label "create solutions to problems" .
+
+ns1:customer_relationship_management a ns1:Skill ;
+    rdfs:label "customer relationship management" .
+
+ns1:design_principles a ns1:Skill ;
+    rdfs:label "design principles" .
+
+ns1:detect_microorganisms a ns1:Skill ;
+    rdfs:label "detect microorganisms" .
+
+ns1:develop_architectural_plans a ns1:Skill ;
+    rdfs:label "develop architectural plans" .
+
+ns1:develop_communication_strategies a ns1:Skill ;
+    rdfs:label "develop communication strategies" .
+
+ns1:develop_company_strategies a ns1:Skill ;
+    rdfs:label "develop company strategies" .
+
+ns1:develop_professional_network a ns1:Skill ;
+    rdfs:label "develop professional network" .
+
+ns1:develop_recreation_programmes a ns1:Skill ;
+    rdfs:label "develop recreation programmes" .
+
+ns1:develop_trade_policies a ns1:Skill ;
+    rdfs:label "develop trade policies" .
+
+ns1:dispose_waste a ns1:Skill ;
+    rdfs:label "dispose waste" .
+
+ns1:draw_up_instrument_setup a ns1:Skill ;
+    rdfs:label "draw up instrument setup" .
+
+ns1:ecology a ns1:Skill ;
+    rdfs:label "ecology" .
+
+ns1:economics a ns1:Skill ;
+    rdfs:label "economics" .
+
+ns1:electrical_wiring_plans a ns1:Skill ;
+    rdfs:label "electrical wiring plans" .
+
+ns1:electricity a ns1:Skill ;
+    rdfs:label "electricity" .
+
+ns1:embargo_regulations a ns1:Skill ;
+    rdfs:label "embargo regulations" .
+
+ns1:ensure_compliance_with_policies a ns1:Skill ;
+    rdfs:label "ensure compliance with policies" .
+
+ns1:ensure_compliance_with_purchasing_and_contracting_regulations a ns1:Skill ;
+    rdfs:label "ensure compliance with purchasing and contracting regulations" .
+
+ns1:ensure_cooperation_among_production_costume_department_and_makeup_department a ns1:Skill ;
+    rdfs:label "ensure cooperation among production, costume department and make-up department" .
+
+ns1:ensure_public_safety_and_security a ns1:Skill ;
+    rdfs:label "ensure public safety and security" .
+
+ns1:ensure_regulatory_compliance_in_pipeline_infrastructures a ns1:Skill ;
+    rdfs:label "ensure regulatory compliance in pipeline infrastructures" .
+
+ns1:enzymatic_processing a ns1:Skill ;
+    rdfs:label "enzymatic processing" .
+
+ns1:establish_collaborative_relations a ns1:Skill ;
+    rdfs:label "establish collaborative relations" .
+
+ns1:establish_daily_priorities a ns1:Skill ;
+    rdfs:label "establish daily priorities" .
+
+ns1:estimate_damage a ns1:Skill ;
+    rdfs:label "estimate damage" .
+
+ns1:evacuate_people_from_buildings a ns1:Skill ;
+    rdfs:label "evacuate people from buildings" .
+
+ns1:evacuate_people_from_flooded_areas a ns1:Skill ;
+    rdfs:label "evacuate people from flooded areas" .
+
+ns1:export_control_principles a ns1:Skill ;
+    rdfs:label "export control principles" .
+
+ns1:fermentation_processes_of_beverages a ns1:Skill ;
+    rdfs:label "fermentation processes of beverages" .
+
+ns1:fermentation_processes_of_food a ns1:Skill ;
+    rdfs:label "fermentation processes of food" .
+
+ns1:first_aid a ns1:Skill ;
+    rdfs:label "first aid" .
+
+ns1:fix_meetings a ns1:Skill ;
+    rdfs:label "fix meetings" .
+
+ns1:flood_remediation_equipment a ns1:Skill ;
+    rdfs:label "flood remediation equipment" .
+
+ns1:follow_company_standards a ns1:Skill ;
+    rdfs:label "follow company standards" .
+
+ns1:follow_health_and_safety_procedures_in_construction a ns1:Skill ;
+    rdfs:label "follow health and safety procedures in construction" .
+
+ns1:followup_lab_results a ns1:Skill ;
+    rdfs:label "follow-up lab results" .
+
+ns1:food_allergies a ns1:Skill ;
+    rdfs:label "food allergies" .
+
+ns1:food_and_beverage_industry a ns1:Skill ;
+    rdfs:label "food and beverage industry" .
+
+ns1:food_legislation a ns1:Skill ;
+    rdfs:label "food legislation" .
+
+ns1:food_preservation a ns1:Skill ;
+    rdfs:label "food preservation" .
+
+ns1:food_product_ingredients a ns1:Skill ;
+    rdfs:label "food product ingredients" .
+
+ns1:food_products_composition a ns1:Skill ;
+    rdfs:label "food products composition" .
+
+ns1:food_safety_principles a ns1:Skill ;
+    rdfs:label "food safety principles" .
+
+ns1:food_science a ns1:Skill ;
+    rdfs:label "food science" .
+
+ns1:food_storage a ns1:Skill ;
+    rdfs:label "food storage" .
+
+ns1:food_toxicity a ns1:Skill ;
+    rdfs:label "food toxicity" .
+
+ns1:foodborne_diseases a ns1:Skill ;
+    rdfs:label "foodborne diseases" .
+
+ns1:funding_methods a ns1:Skill ;
+    rdfs:label "funding methods" .
+
+ns1:geographical_areas_relevant_to_tourism a ns1:Skill ;
+    rdfs:label "geographical areas relevant to tourism" .
+
+ns1:government_policy_implementation a ns1:Skill ;
+    rdfs:label "government policy implementation" .
+
+ns1:guide_lift_car_installation a ns1:Skill ;
+    rdfs:label "guide lift car installation" .
+
+ns1:handle_personal_identifiable_information a ns1:Skill ;
+    rdfs:label "handle personal identifiable information" .
+
+ns1:handle_veterinary_emergencies a ns1:Skill ;
+    rdfs:label "handle veterinary emergencies" .
+
+ns1:harmonise_body_movements a ns1:Skill ;
+    rdfs:label "harmonise body movements" .
+
+ns1:have_computer_literacy a ns1:Skill ;
+    rdfs:label "have computer literacy" .
+
+ns1:identify_clients_needs a ns1:Skill ;
+    rdfs:label "identify clients' needs" .
+
+ns1:identify_suppliers a ns1:Skill ;
+    rdfs:label "identify suppliers" .
+
+ns1:identify_the_factors_causing_changes_in_food_during_storage a ns1:Skill ;
+    rdfs:label "identify the factors causing changes in food during storage" .
+
+ns1:improve_chemical_processes a ns1:Skill ;
+    rdfs:label "improve chemical processes" .
+
+ns1:inform_on_government_funding a ns1:Skill ;
+    rdfs:label "inform on government funding" .
+
+ns1:inform_tourist_groups_on_logistical_times a ns1:Skill ;
+    rdfs:label "inform tourist groups on logistical times" .
+
+ns1:ingredient_threats a ns1:Skill ;
+    rdfs:label "ingredient threats" .
+
+ns1:inspect_construction_supplies a ns1:Skill ;
+    rdfs:label "inspect construction supplies" .
+
+ns1:inspect_government_policy_compliance a ns1:Skill ;
+    rdfs:label "inspect government policy compliance" .
+
+ns1:inspect_project_regulations a ns1:Skill ;
+    rdfs:label "inspect project regulations" .
+
+ns1:install_electrical_and_electronic_equipment a ns1:Skill ;
+    rdfs:label "install electrical and electronic equipment" .
+
+ns1:install_hydraulic_systems a ns1:Skill ;
+    rdfs:label "install hydraulic systems" .
+
+ns1:install_lift_controller a ns1:Skill ;
+    rdfs:label "install lift controller" .
+
+ns1:install_lift_governor a ns1:Skill ;
+    rdfs:label "install lift governor" .
+
+ns1:install_lift_shaft_support_equipment a ns1:Skill ;
+    rdfs:label "install lift shaft support equipment" .
+
+ns1:install_pneumatic_systems a ns1:Skill ;
+    rdfs:label "install pneumatic systems" .
+
+ns1:integrate_strategic_foundation_in_daily_performance a ns1:Skill ;
+    rdfs:label "integrate strategic foundation in daily performance" .
+
+ns1:international_commercial_transactions_rules a ns1:Skill ;
+    rdfs:label "international commercial transactions rules" .
+
+ns1:issue_purchase_orders a ns1:Skill ;
+    rdfs:label "issue purchase orders" .
+
+ns1:keep_up_with_innovations_in_food_manufacturing a ns1:Skill ;
+    rdfs:label "keep up with innovations in food manufacturing" .
+
+ns1:laboratorybased_sciences a ns1:Skill ;
+    rdfs:label "laboratory-based sciences" .
+
+ns1:landscape_analysis a ns1:Skill ;
+    rdfs:label "landscape analysis" .
+
+ns1:landscape_architectural_instruments a ns1:Skill ;
+    rdfs:label "landscape architectural instruments" .
+
+ns1:landscape_architecture a ns1:Skill ;
+    rdfs:label "landscape architecture" .
+
+ns1:lead_process_optimisation a ns1:Skill ;
+    rdfs:label "lead process optimisation" .
+
+ns1:legislation_about_animal_origin_products a ns1:Skill ;
+    rdfs:label "legislation about animal origin products" .
+
+ns1:liaise_with_guest_facilities_providers a ns1:Skill ;
+    rdfs:label "liaise with guest facilities providers" .
+
+ns1:liaise_with_local_authorities a ns1:Skill ;
+    rdfs:label "liaise with local authorities" .
+
+ns1:lift_safety_legislation a ns1:Skill ;
+    rdfs:label "lift safety legislation" .
+
+ns1:lift_safety_mechanisms a ns1:Skill ;
+    rdfs:label "lift safety mechanisms" .
+
+ns1:local_area_tourism_industry a ns1:Skill ;
+    rdfs:label "local area tourism industry" .
+
+ns1:maintain_an_artistic_portfolio a ns1:Skill ;
+    rdfs:label "maintain an artistic portfolio" .
+
+ns1:maintain_customer_service a ns1:Skill ;
+    rdfs:label "maintain customer service" .
+
+ns1:maintain_musical_instruments a ns1:Skill ;
+    rdfs:label "maintain musical instruments" .
+
+ns1:maintain_personal_hygiene_standards a ns1:Skill ;
+    rdfs:label "maintain personal hygiene standards" .
+
+ns1:maintain_relations_with_local_representatives a ns1:Skill ;
+    rdfs:label "maintain relations with local representatives" .
+
+ns1:maintain_relationship_with_customers a ns1:Skill ;
+    rdfs:label "maintain relationship with customers" .
+
+ns1:maintain_relationship_with_suppliers a ns1:Skill ;
+    rdfs:label "maintain relationship with suppliers" .
+
+ns1:maintain_sound_equipment a ns1:Skill ;
+    rdfs:label "maintain sound equipment" .
+
+ns1:make_accurate_drawings a ns1:Skill ;
+    rdfs:label "make accurate drawings" .
+
+ns1:makeup_techniques a ns1:Skill ;
+    rdfs:label "make-up techniques" .
+
+ns1:manage_consumables_stock a ns1:Skill ;
+    rdfs:label "manage consumables stock" .
+
+ns1:manage_contracts a ns1:Skill ;
+    rdfs:label "manage contracts" .
+
+ns1:manage_discarded_products a ns1:Skill ;
+    rdfs:label "manage discarded products" .
+
+ns1:manage_food_manufacturing_laboratory a ns1:Skill ;
+    rdfs:label "manage food manufacturing laboratory" .
+
+ns1:manage_government_funding a ns1:Skill ;
+    rdfs:label "manage government funding" .
+
+ns1:manage_health_and_safety_standards a ns1:Skill ;
+    rdfs:label "manage health and safety standards" .
+
+ns1:manage_landscape_design_projects a ns1:Skill ;
+    rdfs:label "manage landscape design projects" .
+
+ns1:manage_logistics a ns1:Skill ;
+    rdfs:label "manage logistics" .
+
+ns1:manage_operational_budgets a ns1:Skill ;
+    rdfs:label "manage operational budgets" .
+
+ns1:manage_purchasing_cycle a ns1:Skill ;
+    rdfs:label "manage purchasing cycle" .
+
+ns1:manage_recreational_facility a ns1:Skill ;
+    rdfs:label "manage recreational facility" .
+
+ns1:manage_resources a ns1:Skill ;
+    rdfs:label "manage resources" .
+
+ns1:manage_staff a ns1:Skill ;
+    rdfs:label "manage staff" .
+
+ns1:manage_supplies a ns1:Skill ;
+    rdfs:label "manage supplies" .
+
+ns1:manage_tender_processes a ns1:Skill ;
+    rdfs:label "manage tender processes" .
+
+ns1:market_analysis a ns1:Skill ;
+    rdfs:label "market analysis" .
+
+ns1:measure_customer_feedback a ns1:Skill ;
+    rdfs:label "measure customer feedback" .
+
+ns1:measure_water_quality_parameters a ns1:Skill ;
+    rdfs:label "measure water quality parameters" .
+
+ns1:mechanical_systems a ns1:Skill ;
+    rdfs:label "mechanical systems" .
+
+ns1:mechanics a ns1:Skill ;
+    rdfs:label "mechanics" .
+
+ns1:media_studies a ns1:Skill ;
+    rdfs:label "media studies" .
+
+ns1:mentor_individuals a ns1:Skill ;
+    rdfs:label "mentor individuals" .
+
+ns1:monitor_company_policy a ns1:Skill ;
+    rdfs:label "monitor company policy" .
+
+ns1:monitor_developments_used_for_food_industry a ns1:Skill ;
+    rdfs:label "monitor developments used for food industry" .
+
+ns1:monitor_processing_conditions a ns1:Skill ;
+    rdfs:label "monitor processing conditions" .
+
+ns1:monitor_water_quality a ns1:Skill ;
+    rdfs:label "monitor water quality" .
+
+ns1:motivate_employees a ns1:Skill ;
+    rdfs:label "motivate employees" .
+
+ns1:operate_microscope a ns1:Skill ;
+    rdfs:label "operate microscope" .
+
+ns1:operate_soldering_equipment a ns1:Skill ;
+    rdfs:label "operate soldering equipment" .
+
+ns1:operate_welding_equipment a ns1:Skill ;
+    rdfs:label "operate welding equipment" .
+
+ns1:operational_tactics_for_emergency_responses a ns1:Skill ;
+    rdfs:label "operational tactics for emergency responses" .
+
+ns1:organisational_policies a ns1:Skill ;
+    rdfs:label "organisational policies" .
+
+ns1:organise_entry_to_attractions a ns1:Skill ;
+    rdfs:label "organise entry to attractions" .
+
+ns1:organise_transportation_of_tour_groups a ns1:Skill ;
+    rdfs:label "organise transportation of tour groups" .
+
+ns1:oversee_travel_arrangements a ns1:Skill ;
+    rdfs:label "oversee travel arrangements" .
+
+ns1:pathogenic_microorganisms_in_food a ns1:Skill ;
+    rdfs:label "pathogenic microorganisms in food" .
+
+ns1:perform_business_analysis a ns1:Skill ;
+    rdfs:label "perform business analysis" .
+
+ns1:perform_environmental_remediation a ns1:Skill ;
+    rdfs:label "perform environmental remediation" .
+
+ns1:perform_followup_on_pipeline_route_services a ns1:Skill ;
+    rdfs:label "perform follow-up on pipeline route services" .
+
+ns1:perform_food_risk_analysis a ns1:Skill ;
+    rdfs:label "perform food risk analysis" .
+
+ns1:perform_maintenance_on_installed_equipment a ns1:Skill ;
+    rdfs:label "perform maintenance on installed equipment" .
+
+ns1:perform_market_research a ns1:Skill ;
+    rdfs:label "perform market research" .
+
+ns1:perform_microbiological_analysis_in_the_food_chain a ns1:Skill ;
+    rdfs:label "perform microbiological analysis in the food chain" .
+
+ns1:perform_pest_control a ns1:Skill ;
+    rdfs:label "perform pest control" .
+
+ns1:perform_project_management a ns1:Skill ;
+    rdfs:label "perform project management" .
+
+ns1:perform_scientific_research a ns1:Skill ;
+    rdfs:label "perform scientific research" .
+
+ns1:perform_services_in_a_flexible_manner a ns1:Skill ;
+    rdfs:label "perform services in a flexible manner" .
+
+ns1:perform_studies_and_field_investigation a ns1:Skill ;
+    rdfs:label "perform studies and field investigation" .
+
+ns1:perform_technical_sound_check a ns1:Skill ;
+    rdfs:label "perform technical sound check" .
+
+ns1:perform_water_testing_procedures a ns1:Skill ;
+    rdfs:label "perform water testing procedures" .
+
+ns1:perform_weed_control_operations a ns1:Skill ;
+    rdfs:label "perform weed control operations" .
+
+ns1:pest_control_in_plants a ns1:Skill ;
+    rdfs:label "pest control in plants" .
+
+ns1:photography a ns1:Skill ;
+    rdfs:label "photography" .
+
+ns1:plan_health_and_safety_procedures a ns1:Skill ;
+    rdfs:label "plan health and safety procedures" .
+
+ns1:plant_disease_control a ns1:Skill ;
+    rdfs:label "plant disease control" .
+
+ns1:pneumatics a ns1:Skill ;
+    rdfs:label "pneumatics" .
+
+ns1:pose_in_front_of_a_camera a ns1:Skill ;
+    rdfs:label "pose in front of a camera" .
+
+ns1:prepare_instruments_for_performance a ns1:Skill ;
+    rdfs:label "prepare instruments for performance" .
+
+ns1:prepare_personal_work_environment a ns1:Skill ;
+    rdfs:label "prepare personal work environment" .
+
+ns1:prepare_visual_data a ns1:Skill ;
+    rdfs:label "prepare visual data" .
+
+ns1:present_reports a ns1:Skill ;
+    rdfs:label "present reports" .
+
+ns1:prevent_technical_problems_with_musical_instruments a ns1:Skill ;
+    rdfs:label "prevent technical problems with musical instruments" .
+
+ns1:prevent_undesired_changes_to_sound_design a ns1:Skill ;
+    rdfs:label "prevent undesired changes to sound design" .
+
+ns1:program_lift_controller a ns1:Skill ;
+    rdfs:label "program lift controller" .
+
+ns1:promote_free_trade a ns1:Skill ;
+    rdfs:label "promote free trade" .
+
+ns1:promote_recreation_activities a ns1:Skill ;
+    rdfs:label "promote recreation activities" .
+
+ns1:provide_emergency_supplies a ns1:Skill ;
+    rdfs:label "provide emergency supplies" .
+
+ns1:publish_academic_research a ns1:Skill ;
+    rdfs:label "publish academic research" .
+
+ns1:quality_assurance_methodologies a ns1:Skill ;
+    rdfs:label "quality assurance methodologies" .
+
+ns1:record_test_data a ns1:Skill ;
+    rdfs:label "record test data" .
+
+ns1:recreation_activities a ns1:Skill ;
+    rdfs:label "recreation activities" .
+
+ns1:remove_debris a ns1:Skill ;
+    rdfs:label "remove debris" .
+
+ns1:repair_musical_instruments a ns1:Skill ;
+    rdfs:label "repair musical instruments" .
+
+ns1:represent_the_organisation a ns1:Skill ;
+    rdfs:label "represent the organisation" .
+
+ns1:resolve_equipment_malfunctions a ns1:Skill ;
+    rdfs:label "resolve equipment malfunctions" .
+
+ns1:review_construction_plans_authorisations a ns1:Skill ;
+    rdfs:label "review construction plans authorisations" .
+
+ns1:safeguard_artistic_quality_of_performance a ns1:Skill ;
+    rdfs:label "safeguard artistic quality of performance" .
+
+ns1:schedule_recreation_facilities a ns1:Skill ;
+    rdfs:label "schedule recreation facilities" .
+
+ns1:scientific_research_methodology a ns1:Skill ;
+    rdfs:label "scientific research methodology" .
+
+ns1:secure_working_area a ns1:Skill ;
+    rdfs:label "secure working area" .
+
+ns1:set_organisational_policies a ns1:Skill ;
+    rdfs:label "set organisational policies" .
+
+ns1:set_up_equipment_in_a_timely_manner a ns1:Skill ;
+    rdfs:label "set up equipment in a timely manner" .
+
+ns1:show_intercultural_awareness a ns1:Skill ;
+    rdfs:label "show intercultural awareness" .
+
+ns1:store_performance_equipment a ns1:Skill ;
+    rdfs:label "store performance equipment" .
+
+ns1:strategic_planning a ns1:Skill ;
+    rdfs:label "strategic planning" .
+
+ns1:supervise_daily_information_operations a ns1:Skill ;
+    rdfs:label "supervise daily information operations" .
+
+ns1:supervise_work a ns1:Skill ;
+    rdfs:label "supervise work" .
+
+ns1:supply_chain_management a ns1:Skill ;
+    rdfs:label "supply chain management" .
+
+ns1:surveying_methods a ns1:Skill ;
+    rdfs:label "surveying methods" .
+
+ns1:test_lift_operation a ns1:Skill ;
+    rdfs:label "test lift operation" .
+
+ns1:topography a ns1:Skill ;
+    rdfs:label "topography" .
+
+ns1:track_price_trends a ns1:Skill ;
+    rdfs:label "track price trends" .
+
+ns1:translate_artistic_concepts_to_technical_designs a ns1:Skill ;
+    rdfs:label "translate artistic concepts to technical designs" .
+
+ns1:treat_flood_damage a ns1:Skill ;
+    rdfs:label "treat flood damage" .
+
+ns1:troubleshoot a ns1:Skill ;
+    rdfs:label "troubleshoot" .
+
+ns1:tune_instruments_on_stage a ns1:Skill ;
+    rdfs:label "tune instruments on stage" .
+
+ns1:types_of_lifts a ns1:Skill ;
+    rdfs:label "types of lifts" .
+
+ns1:types_of_media a ns1:Skill ;
+    rdfs:label "types of media" .
+
+ns1:types_of_pipelines a ns1:Skill ;
+    rdfs:label "types of pipelines" .
+
+ns1:understand_artistic_concepts a ns1:Skill ;
+    rdfs:label "understand artistic concepts" .
+
+ns1:use_communication_equipment a ns1:Skill ;
+    rdfs:label "use communication equipment" .
+
+ns1:use_consulting_techniques a ns1:Skill ;
+    rdfs:label "use consulting techniques" .
+
+ns1:use_data_processing_techniques a ns1:Skill ;
+    rdfs:label "use data processing techniques" .
+
+ns1:use_safety_equipment_in_construction a ns1:Skill ;
+    rdfs:label "use safety equipment in construction" .
+
+ns1:use_technical_documentation a ns1:Skill ;
+    rdfs:label "use technical documentation" .
+
+ns1:water_policies a ns1:Skill ;
+    rdfs:label "water policies" .
+
+ns1:welcome_tour_groups a ns1:Skill ;
+    rdfs:label "welcome tour groups" .
+
+ns1:work_safely_with_chemicals a ns1:Skill ;
+    rdfs:label "work safely with chemicals" .
+
+ns1:work_safely_with_machines a ns1:Skill ;
+    rdfs:label "work safely with machines" .
+
+ns1:work_safely_with_mobile_electrical_systems_under_supervision a ns1:Skill ;
+    rdfs:label "work safely with mobile electrical systems under supervision" .
+
+ns1:work_with_respect_for_own_safety a ns1:Skill ;
+    rdfs:label "work with respect for own safety" .
+
+ns1:write_scientific_papers a ns1:Skill ;
+    rdfs:label "write scientific papers" .
+
+ns1:business_analysis a ns1:Skill ;
+    rdfs:label "business analysis" .
+
+ns1:corporate_social_responsibility a ns1:Skill ;
+    rdfs:label "corporate social responsibility" .
+
+ns1:ensure_compliance_with_environmental_legislation a ns1:Skill ;
+    rdfs:label "ensure compliance with environmental legislation" .
+
+ns1:hydraulics a ns1:Skill ;
+    rdfs:label "hydraulics" .
+
+ns1:international_import_export_regulations a ns1:Skill ;
+    rdfs:label "international import export regulations" .
+
+ns1:manage_personal_professional_development a ns1:Skill ;
+    rdfs:label "manage personal professional development" .
+
+ns1:speak_different_languages a ns1:Skill ;
+    rdfs:label "speak different languages" .
+
+ns1:use_personal_protection_equipment a ns1:Skill ;
+    rdfs:label "use personal protection equipment" .
+
+ns1:work_ergonomically a ns1:Skill ;
+    rdfs:label "work ergonomically" .
+
+ns1:CH a ns1:Country ;
+    rdfs:label "CH" .
+

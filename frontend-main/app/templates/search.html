@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles/style.css">
+    <link rel="stylesheet" href="../static/styles/dropdown-styles.css">
+    <link rel="stylesheet" href="../static/styles/search-field-styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Search</title>
+</head>
+<body>
+    <!-- Include the header -->
+    <header>
+        <div class="logo">
+            <img src="../static/images/logo-unige.png" alt="Logo">
+            <h1>Observatoire emploi</h1>
+        </div>
+
+            <nav class="teal-nav">
+                <a href="{{ url_for('accueil') }}">Accueil</a>
+                <a href="{{ url_for('display_jobs') }}">Emploi</a>
+                <a href="{{ url_for('display_skills') }}">Competence</a>
+                <a href="{{ url_for('display_search') }}">Recherche</a>
+                <a href="faq.html">FAQ</a>
+                <a href="profile.html">Profil</a>
+            </nav>
+
+    </header>
+
+    <!-- Main content section -->
+    <main class="search-page">
+        <!-- Left-side board -->
+        <aside class="search-board">
+            <h2>Recherche avancÃ©</h2>
+            <form action="{{ url_for('display_search') }}" method="post">
+                <!-- Keyword input -->
+
+                <div class="search-input-container">
+                    <div class="placeholder-icon">&#128269;</div>
+                    <input type="text" id="keyword" name="keyword" placeholder="Recherche par mot cle">
+                </div>
+
+         <!-- Domaine filter -->
+<div class="filter-group">
+    <label for="domaine1">Domaine:</label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes">
+            <label><input type="checkbox" id="dom1" name="domaine" value="education"> Education</label>
+            <label><input type="checkbox" id="dom2" name="domaine" value="arts and humanities"> Art and humanities</label>
+            <label><input type="checkbox" id="dom3" name="domaine" value="information and communication technologies (icts)"> information and communication technologies (icts)</label>
+            <label><input type="checkbox" id="dom4" name="domaine" value="health and welfare"> Health and welfare</label>
+        </div>
+    </div>
+</div>
+
+
+
+             <!-- Technique filter -->
+<div class="filter-group">
+    <label for="technique1">Technique:</label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes" id="technique-checkboxes">
+            <label for="technique1"><input type="checkbox" name="technique" id="technique1" value="technique1"> Technique 1</label>
+            <label for="technique2"><input type="checkbox" name="technique" id="technique2" value="technique2"> Technique 2</label>
+        </div>
+    </div>
+</div>
+
+
+                <!-- Langue filter -->
+<div class="filter-group">
+    <label for="langue1">Langue:</label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes" id="langue-checkboxes">
+            <label><input type="checkbox" name="langue" id="langue1" value="English"> Anglais</label>
+            <label><input type="checkbox" name="langue" id="langue2" value="French"> Francais</label>
+            <label><input type="checkbox" name="langue" id="langue3" value="German"> Allemand</label>
+            <label><input type="checkbox" name="langue" id="langue4" value="Italian"> Italien</label>
+            <label><input type="checkbox" name="langue" id="langue5" value="Russian"> Russe</label>
+        </div>
+    </div>
+</div>
+
+
+                <!-- Transverse filter -->
+<div class="filter-group">
+    <label for="transverse1">Transverse:</label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes" id="transverse-checkboxes">
+            <label><input type="checkbox" name="transverse" id="transverse1" value="transverse1"> Transverse 1</label>
+            <label><input type="checkbox" name="transverse" id="transverse2" value="transverse2"> Transverse 2</label>
+        </div>
+    </div>
+</div>
+
+
+                <button type="submit">Lancer la recherche</button>
+
+                <!-- Reset Filters link -->
+        <p id="resetFilters" class="reset-filters">Reinitialiser les filtres</p>
+
+            </form>
+        </aside>
+
+        <!-- Main content -->
+        <section class="search-results">
+    <h2>Search Results</h2>
+    {% if search_results %}
+        {% for result in search_results %}
+            <div class="result-item">
+                <h3>{{ result.label }}</h3>
+                <p>Job: {{ result.job }}</p>
+                <p>Description: {{ result.description }}</p>
+                <p>Location: {{ result.location }}</p>
+                <p>Company: {{ result.company }}</p>
+                <p>Country: {{ result.country }}</p>
+                <p>Skills: {{ result.skills }}</p>
+                <p>Type: {{ result.types }}</p>
+                <p>URL: <a href="{{ result.url }}">{{ result.url }}</a></p>
+            </div>
+        {% endfor %}
+
+    {% endif %}
+        </section>
+
+
+        <!-- Skills by Domain Section -->
+        <section class="domain-skills">
+            {% if domain_skills %}
+                {% for skill in domain_skills %}
+                    <div class="skill-item">
+                        <p>Skill: {{ skill.Skill }}</p>
+                    </div>
+                {% endfor %}
+
+            {% endif %}
+        </section>
+
+        <!-- Language Skills Section -->
+<section class="language-skills">
+    {% if language_skills %}
+        <ul>
+            {% for skill in language_skills %}
+                <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+
+    {% endif %}
+</section>
+    </main>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleFilterIcons = document.querySelectorAll('.toggle-filter');
+
+            toggleFilterIcons.forEach(icon => {
+                icon.addEventListener('click', function () {
+                    const checkboxes = this.nextElementSibling;
+                    checkboxes.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+
+    <!-- Reset all checkboxes to their default state -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const keywordInput = document.getElementById('keyword');
+
+            keywordInput.addEventListener('focus', function () {
+                this.placeholder = '';
+                const placeholderIcon = document.querySelector('.placeholder-icon');
+                placeholderIcon.classList.add('placeholder-hidden');
+            });
+
+            keywordInput.addEventListener('blur', function () {
+                if (this.value === '') {
+                    this.placeholder = 'Recherche par mot clÃƒÂ©';
+                    const placeholderIcon = document.querySelector('.placeholder-icon');
+                    placeholderIcon.classList.remove('placeholder-hidden');
+                }
+            });
+        });
+    </script>
+
+<!-- Reset all checkboxes to their default state -->
+<script>
+    const checkboxes = document.querySelectorAll('.filter-checkboxes input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+        checkbox.checked = false;
+    });
+</script>
+
+</body>
+</html>

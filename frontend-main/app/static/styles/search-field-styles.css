@@ -1,0 +1,22 @@
+/* search-field-stylesold.css */
+.search-input-container {
+    position: center;
+    justify-content: space-evenly;
+}
+
+.placeholder-icon {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; /* Adjust the color as needed */
+}
+
+#keyword {
+    padding-left: 30px; /* Adjust this value based on your icon size and spacing */
+    /* Add any other styles for the input as needed */
+}
+
+.placeholder-hidden {
+    display: none;
+}

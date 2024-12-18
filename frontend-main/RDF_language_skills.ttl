@@ -1,0 +1,1046 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://example.org/> .
+
+<http://example.org/Albanian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Arabic> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Armenian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Azerbaijani> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Basque> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Belarusian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Bengali> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Berber> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Bihari> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Bosnian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Bulgarian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Catalan> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Chinese> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Croatian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Czech> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Danish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Dutch> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/English> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Estonian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Finnish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/French> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Galician> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Georgian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/German> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Greek> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Gujarati> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Hebrew> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Hindi> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Hungarian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Icelandic> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Irish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Italian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Japanese> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Javanese> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Kazakh> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Korean> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Kurdish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/LanguageSkill> a <http://example.org/Skill>,
+        rdfs:Class .
+
+<http://example.org/Latvian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Limburgish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Lithuanian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Macedonian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Malay> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Maltese> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Marathi> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Montenegrin> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Norwegian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Occitan> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Persian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Polish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Portuguese> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Punjabi> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Romani> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Romanian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Russian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Sardinian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Serbian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Skill> a rdfs:Class .
+
+<http://example.org/Slovak> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Slovenian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Spanish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Swedish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Tamil> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Telugu> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Turkish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Ukrainian> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Urdu> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Vietnamese> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Walloon> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Welsh> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/Yiddish> a <http://example.org/LanguageSkill>,
+        rdfs:Class .
+
+<http://example.org/hasType> a rdf:Property .
+
+<http://example.org/interact_verbally_in_Albanian> a <http://example.org/Albanian> ;
+    rdfs:label "interact verbally in Albanian" .
+
+<http://example.org/interact_verbally_in_Arabic> a <http://example.org/Arabic> ;
+    rdfs:label "interact verbally in Arabic" .
+
+<http://example.org/interact_verbally_in_Armenian> a <http://example.org/Armenian> ;
+    rdfs:label "interact verbally in Armenian" .
+
+<http://example.org/interact_verbally_in_Azerbaijani> a <http://example.org/Azerbaijani> ;
+    rdfs:label "interact verbally in Azerbaijani" .
+
+<http://example.org/interact_verbally_in_Basque> a <http://example.org/Basque> ;
+    rdfs:label "interact verbally in Basque" .
+
+<http://example.org/interact_verbally_in_Belarusian> a <http://example.org/Belarusian> ;
+    rdfs:label "interact verbally in Belarusian" .
+
+<http://example.org/interact_verbally_in_Bengali> a <http://example.org/Bengali> ;
+    rdfs:label "interact verbally in Bengali" .
+
+<http://example.org/interact_verbally_in_Berber> a <http://example.org/Berber> ;
+    rdfs:label "interact verbally in Berber" .
+
+<http://example.org/interact_verbally_in_Bihari> a <http://example.org/Bihari> ;
+    rdfs:label "interact verbally in Bihari" .
+
+<http://example.org/interact_verbally_in_Bosnian> a <http://example.org/Bosnian> ;
+    rdfs:label "interact verbally in Bosnian" .
+
+<http://example.org/interact_verbally_in_Bulgarian> a <http://example.org/Bulgarian> ;
+    rdfs:label "interact verbally in Bulgarian" .
+
+<http://example.org/interact_verbally_in_Catalan> a <http://example.org/Catalan> ;
+    rdfs:label "interact verbally in Catalan" .
+
+<http://example.org/interact_verbally_in_Chinese> a <http://example.org/Chinese> ;
+    rdfs:label "interact verbally in Chinese" .
+
+<http://example.org/interact_verbally_in_Croatian> a <http://example.org/Croatian> ;
+    rdfs:label "interact verbally in Croatian" .
+
+<http://example.org/interact_verbally_in_Czech> a <http://example.org/Czech> ;
+    rdfs:label "interact verbally in Czech" .
+
+<http://example.org/interact_verbally_in_Danish> a <http://example.org/Danish> ;
+    rdfs:label "interact verbally in Danish" .
+
+<http://example.org/interact_verbally_in_Dutch> a <http://example.org/Dutch> ;
+    rdfs:label "interact verbally in Dutch" .
+
+<http://example.org/interact_verbally_in_English> a <http://example.org/English> ;
+    rdfs:label "interact verbally in English" .
+
+<http://example.org/interact_verbally_in_Estonian> a <http://example.org/Estonian> ;
+    rdfs:label "interact verbally in Estonian" .
+
+<http://example.org/interact_verbally_in_Finnish> a <http://example.org/Finnish> ;
+    rdfs:label "interact verbally in Finnish" .
+
+<http://example.org/interact_verbally_in_French> a <http://example.org/French> ;
+    rdfs:label "interact verbally in French" .
+
+<http://example.org/interact_verbally_in_Galician> a <http://example.org/Galician> ;
+    rdfs:label "interact verbally in Galician" .
+
+<http://example.org/interact_verbally_in_Georgian> a <http://example.org/Georgian> ;
+    rdfs:label "interact verbally in Georgian" .
+
+<http://example.org/interact_verbally_in_German> a <http://example.org/German> ;
+    rdfs:label "interact verbally in German" .
+
+<http://example.org/interact_verbally_in_Greek> a <http://example.org/Greek> ;
+    rdfs:label "interact verbally in Greek" .
+
+<http://example.org/interact_verbally_in_Gujarati> a <http://example.org/Gujarati> ;
+    rdfs:label "interact verbally in Gujarati" .
+
+<http://example.org/interact_verbally_in_Hebrew> a <http://example.org/Hebrew> ;
+    rdfs:label "interact verbally in Hebrew" .
+
+<http://example.org/interact_verbally_in_Hindi> a <http://example.org/Hindi> ;
+    rdfs:label "interact verbally in Hindi" .
+
+<http://example.org/interact_verbally_in_Hungarian> a <http://example.org/Hungarian> ;
+    rdfs:label "interact verbally in Hungarian" .
+
+<http://example.org/interact_verbally_in_Icelandic> a <http://example.org/Icelandic> ;
+    rdfs:label "interact verbally in Icelandic" .
+
+<http://example.org/interact_verbally_in_Irish> a <http://example.org/Irish> ;
+    rdfs:label "interact verbally in Irish" .
+
+<http://example.org/interact_verbally_in_Italian> a <http://example.org/Italian> ;
+    rdfs:label "interact verbally in Italian" .
+
+<http://example.org/interact_verbally_in_Japanese> a <http://example.org/Japanese> ;
+    rdfs:label "interact verbally in Japanese" .
+
+<http://example.org/interact_verbally_in_Javanese> a <http://example.org/Javanese> ;
+    rdfs:label "interact verbally in Javanese" .
+
+<http://example.org/interact_verbally_in_Kazakh> a <http://example.org/Kazakh> ;
+    rdfs:label "interact verbally in Kazakh" .
+
+<http://example.org/interact_verbally_in_Korean> a <http://example.org/Korean> ;
+    rdfs:label "interact verbally in Korean" .
+
+<http://example.org/interact_verbally_in_Kurdish> a <http://example.org/Kurdish> ;
+    rdfs:label "interact verbally in Kurdish" .
+
+<http://example.org/interact_verbally_in_Latvian> a <http://example.org/Latvian> ;
+    rdfs:label "interact verbally in Latvian" .
+
+<http://example.org/interact_verbally_in_Limburgish> a <http://example.org/Limburgish> ;
+    rdfs:label "interact verbally in Limburgish" .
+
+<http://example.org/interact_verbally_in_Lithuanian> a <http://example.org/Lithuanian> ;
+    rdfs:label "interact verbally in Lithuanian" .
+
+<http://example.org/interact_verbally_in_Macedonian> a <http://example.org/Macedonian> ;
+    rdfs:label "interact verbally in Macedonian" .
+
+<http://example.org/interact_verbally_in_Malay> a <http://example.org/Malay> ;
+    rdfs:label "interact verbally in Malay" .
+
+<http://example.org/interact_verbally_in_Maltese> a <http://example.org/Maltese> ;
+    rdfs:label "interact verbally in Maltese" .
+
+<http://example.org/interact_verbally_in_Marathi> a <http://example.org/Marathi> ;
+    rdfs:label "interact verbally in Marathi" .
+
+<http://example.org/interact_verbally_in_Montenegrin> a <http://example.org/Montenegrin> ;
+    rdfs:label "interact verbally in Montenegrin" .
+
+<http://example.org/interact_verbally_in_Norwegian> a <http://example.org/Norwegian> ;
+    rdfs:label "interact verbally in Norwegian" .
+
+<http://example.org/interact_verbally_in_Occitan> a <http://example.org/Occitan> ;
+    rdfs:label "interact verbally in Occitan" .
+
+<http://example.org/interact_verbally_in_Persian> a <http://example.org/Persian> ;
+    rdfs:label "interact verbally in Persian" .
+
+<http://example.org/interact_verbally_in_Polish> a <http://example.org/Polish> ;
+    rdfs:label "interact verbally in Polish" .
+
+<http://example.org/interact_verbally_in_Portuguese> a <http://example.org/Portuguese> ;
+    rdfs:label "interact verbally in Portuguese" .
+
+<http://example.org/interact_verbally_in_Punjabi> a <http://example.org/Punjabi> ;
+    rdfs:label "interact verbally in Punjabi" .
+
+<http://example.org/interact_verbally_in_Romani> a <http://example.org/Romani> ;
+    rdfs:label "interact verbally in Romani" .
+
+<http://example.org/interact_verbally_in_Romanian> a <http://example.org/Romanian> ;
+    rdfs:label "interact verbally in Romanian" .
+
+<http://example.org/interact_verbally_in_Russian> a <http://example.org/Russian> ;
+    rdfs:label "interact verbally in Russian" .
+
+<http://example.org/interact_verbally_in_Sardinian> a <http://example.org/Sardinian> ;
+    rdfs:label "interact verbally in Sardinian" .
+
+<http://example.org/interact_verbally_in_Serbian> a <http://example.org/Serbian> ;
+    rdfs:label "interact verbally in Serbian" .
+
+<http://example.org/interact_verbally_in_Slovak> a <http://example.org/Slovak> ;
+    rdfs:label "interact verbally in Slovak" .
+
+<http://example.org/interact_verbally_in_Slovenian> a <http://example.org/Slovenian> ;
+    rdfs:label "interact verbally in Slovenian" .
+
+<http://example.org/interact_verbally_in_Spanish> a <http://example.org/Spanish> ;
+    rdfs:label "interact verbally in Spanish" .
+
+<http://example.org/interact_verbally_in_Swedish> a <http://example.org/Swedish> ;
+    rdfs:label "interact verbally in Swedish" .
+
+<http://example.org/interact_verbally_in_Tamil> a <http://example.org/Tamil> ;
+    rdfs:label "interact verbally in Tamil" .
+
+<http://example.org/interact_verbally_in_Telugu> a <http://example.org/Telugu> ;
+    rdfs:label "interact verbally in Telugu" .
+
+<http://example.org/interact_verbally_in_Turkish> a <http://example.org/Turkish> ;
+    rdfs:label "interact verbally in Turkish" .
+
+<http://example.org/interact_verbally_in_Ukrainian> a <http://example.org/Ukrainian> ;
+    rdfs:label "interact verbally in Ukrainian" .
+
+<http://example.org/interact_verbally_in_Urdu> a <http://example.org/Urdu> ;
+    rdfs:label "interact verbally in Urdu" .
+
+<http://example.org/interact_verbally_in_Vietnamese> a <http://example.org/Vietnamese> ;
+    rdfs:label "interact verbally in Vietnamese" .
+
+<http://example.org/interact_verbally_in_Walloon> a <http://example.org/Walloon> ;
+    rdfs:label "interact verbally in Walloon" .
+
+<http://example.org/interact_verbally_in_Welsh> a <http://example.org/Welsh> ;
+    rdfs:label "interact verbally in Welsh" .
+
+<http://example.org/interact_verbally_in_Yiddish> a <http://example.org/Yiddish> ;
+    rdfs:label "interact verbally in Yiddish" .
+
+<http://example.org/understand_spoken_Albanian> a <http://example.org/Albanian> ;
+    rdfs:label "understand spoken Albanian" .
+
+<http://example.org/understand_spoken_Arabic> a <http://example.org/Arabic> ;
+    rdfs:label "understand spoken Arabic" .
+
+<http://example.org/understand_spoken_Armenian> a <http://example.org/Armenian> ;
+    rdfs:label "understand spoken Armenian" .
+
+<http://example.org/understand_spoken_Azerbaijani> a <http://example.org/Azerbaijani> ;
+    rdfs:label "understand spoken Azerbaijani" .
+
+<http://example.org/understand_spoken_Basque> a <http://example.org/Basque> ;
+    rdfs:label "understand spoken Basque" .
+
+<http://example.org/understand_spoken_Belarusian> a <http://example.org/Belarusian> ;
+    rdfs:label "understand spoken Belarusian" .
+
+<http://example.org/understand_spoken_Bengali> a <http://example.org/Bengali> ;
+    rdfs:label "understand spoken Bengali" .
+
+<http://example.org/understand_spoken_Berber> a <http://example.org/Berber> ;
+    rdfs:label "understand spoken Berber" .
+
+<http://example.org/understand_spoken_Bihari> a <http://example.org/Bihari> ;
+    rdfs:label "understand spoken Bihari" .
+
+<http://example.org/understand_spoken_Bosnian> a <http://example.org/Bosnian> ;
+    rdfs:label "understand spoken Bosnian" .
+
+<http://example.org/understand_spoken_Bulgarian> a <http://example.org/Bulgarian> ;
+    rdfs:label "understand spoken Bulgarian" .
+
+<http://example.org/understand_spoken_Catalan> a <http://example.org/Catalan> ;
+    rdfs:label "understand spoken Catalan" .
+
+<http://example.org/understand_spoken_Chinese> a <http://example.org/Chinese> ;
+    rdfs:label "understand spoken Chinese" .
+
+<http://example.org/understand_spoken_Croatian> a <http://example.org/Croatian> ;
+    rdfs:label "understand spoken Croatian" .
+
+<http://example.org/understand_spoken_Czech> a <http://example.org/Czech> ;
+    rdfs:label "understand spoken Czech" .
+
+<http://example.org/understand_spoken_Danish> a <http://example.org/Danish> ;
+    rdfs:label "understand spoken Danish" .
+
+<http://example.org/understand_spoken_Dutch> a <http://example.org/Dutch> ;
+    rdfs:label "understand spoken Dutch" .
+
+<http://example.org/understand_spoken_English> a <http://example.org/English> ;
+    rdfs:label "understand spoken English" .
+
+<http://example.org/understand_spoken_Estonian> a <http://example.org/Estonian> ;
+    rdfs:label "understand spoken Estonian" .
+
+<http://example.org/understand_spoken_Finnish> a <http://example.org/Finnish> ;
+    rdfs:label "understand spoken Finnish" .
+
+<http://example.org/understand_spoken_French> a <http://example.org/French> ;
+    rdfs:label "understand spoken French" .
+
+<http://example.org/understand_spoken_Galician> a <http://example.org/Galician> ;
+    rdfs:label "understand spoken Galician" .
+
+<http://example.org/understand_spoken_Georgian> a <http://example.org/Georgian> ;
+    rdfs:label "understand spoken Georgian" .
+
+<http://example.org/understand_spoken_German> a <http://example.org/German> ;
+    rdfs:label "understand spoken German" .
+
+<http://example.org/understand_spoken_Greek> a <http://example.org/Greek> ;
+    rdfs:label "understand spoken Greek" .
+
+<http://example.org/understand_spoken_Gujarati> a <http://example.org/Gujarati> ;
+    rdfs:label "understand spoken Gujarati" .
+
+<http://example.org/understand_spoken_Hebrew> a <http://example.org/Hebrew> ;
+    rdfs:label "understand spoken Hebrew" .
+
+<http://example.org/understand_spoken_Hindi> a <http://example.org/Hindi> ;
+    rdfs:label "understand spoken Hindi" .
+
+<http://example.org/understand_spoken_Hungarian> a <http://example.org/Hungarian> ;
+    rdfs:label "understand spoken Hungarian" .
+
+<http://example.org/understand_spoken_Icelandic> a <http://example.org/Icelandic> ;
+    rdfs:label "understand spoken Icelandic" .
+
+<http://example.org/understand_spoken_Irish> a <http://example.org/Irish> ;
+    rdfs:label "understand spoken Irish" .
+
+<http://example.org/understand_spoken_Italian> a <http://example.org/Italian> ;
+    rdfs:label "understand spoken Italian" .
+
+<http://example.org/understand_spoken_Japanese> a <http://example.org/Japanese> ;
+    rdfs:label "understand spoken Japanese" .
+
+<http://example.org/understand_spoken_Javanese> a <http://example.org/Javanese> ;
+    rdfs:label "understand spoken Javanese" .
+
+<http://example.org/understand_spoken_Kazakh> a <http://example.org/Kazakh> ;
+    rdfs:label "understand spoken Kazakh" .
+
+<http://example.org/understand_spoken_Korean> a <http://example.org/Korean> ;
+    rdfs:label "understand spoken Korean" .
+
+<http://example.org/understand_spoken_Kurdish> a <http://example.org/Kurdish> ;
+    rdfs:label "understand spoken Kurdish" .
+
+<http://example.org/understand_spoken_Latvian> a <http://example.org/Latvian> ;
+    rdfs:label "understand spoken Latvian" .
+
+<http://example.org/understand_spoken_Limburgish> a <http://example.org/Limburgish> ;
+    rdfs:label "understand spoken Limburgish" .
+
+<http://example.org/understand_spoken_Lithuanian> a <http://example.org/Lithuanian> ;
+    rdfs:label "understand spoken Lithuanian" .
+
+<http://example.org/understand_spoken_Macedonian> a <http://example.org/Macedonian> ;
+    rdfs:label "understand spoken Macedonian" .
+
+<http://example.org/understand_spoken_Malay> a <http://example.org/Malay> ;
+    rdfs:label "understand spoken Malay" .
+
+<http://example.org/understand_spoken_Maltese> a <http://example.org/Maltese> ;
+    rdfs:label "understand spoken Maltese" .
+
+<http://example.org/understand_spoken_Marathi> a <http://example.org/Marathi> ;
+    rdfs:label "understand spoken Marathi" .
+
+<http://example.org/understand_spoken_Montenegrin> a <http://example.org/Montenegrin> ;
+    rdfs:label "understand spoken Montenegrin" .
+
+<http://example.org/understand_spoken_Norwegian> a <http://example.org/Norwegian> ;
+    rdfs:label "understand spoken Norwegian" .
+
+<http://example.org/understand_spoken_Occitan> a <http://example.org/Occitan> ;
+    rdfs:label "understand spoken Occitan" .
+
+<http://example.org/understand_spoken_Persian> a <http://example.org/Persian> ;
+    rdfs:label "understand spoken Persian" .
+
+<http://example.org/understand_spoken_Polish> a <http://example.org/Polish> ;
+    rdfs:label "understand spoken Polish" .
+
+<http://example.org/understand_spoken_Portuguese> a <http://example.org/Portuguese> ;
+    rdfs:label "understand spoken Portuguese" .
+
+<http://example.org/understand_spoken_Punjabi> a <http://example.org/Punjabi> ;
+    rdfs:label "understand spoken Punjabi" .
+
+<http://example.org/understand_spoken_Romani> a <http://example.org/Romani> ;
+    rdfs:label "understand spoken Romani" .
+
+<http://example.org/understand_spoken_Romanian> a <http://example.org/Romanian> ;
+    rdfs:label "understand spoken Romanian" .
+
+<http://example.org/understand_spoken_Russian> a <http://example.org/Russian> ;
+    rdfs:label "understand spoken Russian" .
+
+<http://example.org/understand_spoken_Sardinian> a <http://example.org/Sardinian> ;
+    rdfs:label "understand spoken Sardinian" .
+
+<http://example.org/understand_spoken_Serbian> a <http://example.org/Serbian> ;
+    rdfs:label "understand spoken Serbian" .
+
+<http://example.org/understand_spoken_Slovak> a <http://example.org/Slovak> ;
+    rdfs:label "understand spoken Slovak" .
+
+<http://example.org/understand_spoken_Slovenian> a <http://example.org/Slovenian> ;
+    rdfs:label "understand spoken Slovenian" .
+
+<http://example.org/understand_spoken_Spanish> a <http://example.org/Spanish> ;
+    rdfs:label "understand spoken Spanish" .
+
+<http://example.org/understand_spoken_Swedish> a <http://example.org/Swedish> ;
+    rdfs:label "understand spoken Swedish" .
+
+<http://example.org/understand_spoken_Tamil> a <http://example.org/Tamil> ;
+    rdfs:label "understand spoken Tamil" .
+
+<http://example.org/understand_spoken_Telugu> a <http://example.org/Telugu> ;
+    rdfs:label "understand spoken Telugu" .
+
+<http://example.org/understand_spoken_Turkish> a <http://example.org/Turkish> ;
+    rdfs:label "understand spoken Turkish" .
+
+<http://example.org/understand_spoken_Ukrainian> a <http://example.org/Ukrainian> ;
+    rdfs:label "understand spoken Ukrainian" .
+
+<http://example.org/understand_spoken_Urdu> a <http://example.org/Urdu> ;
+    rdfs:label "understand spoken Urdu" .
+
+<http://example.org/understand_spoken_Vietnamese> a <http://example.org/Vietnamese> ;
+    rdfs:label "understand spoken Vietnamese" .
+
+<http://example.org/understand_spoken_Walloon> a <http://example.org/Walloon> ;
+    rdfs:label "understand spoken Walloon" .
+
+<http://example.org/understand_spoken_Welsh> a <http://example.org/Welsh> ;
+    rdfs:label "understand spoken Welsh" .
+
+<http://example.org/understand_spoken_Yiddish> a <http://example.org/Yiddish> ;
+    rdfs:label "understand spoken Yiddish" .
+
+<http://example.org/understand_written_Albanian> a <http://example.org/Albanian> ;
+    rdfs:label "understand written Albanian" .
+
+<http://example.org/understand_written_Arabic> a <http://example.org/Arabic> ;
+    rdfs:label "understand written Arabic" .
+
+<http://example.org/understand_written_Armenian> a <http://example.org/Armenian> ;
+    rdfs:label "understand written Armenian" .
+
+<http://example.org/understand_written_Azerbaijani> a <http://example.org/Azerbaijani> ;
+    rdfs:label "understand written Azerbaijani" .
+
+<http://example.org/understand_written_Basque> a <http://example.org/Basque> ;
+    rdfs:label "understand written Basque" .
+
+<http://example.org/understand_written_Belarusian> a <http://example.org/Belarusian> ;
+    rdfs:label "understand written Belarusian" .
+
+<http://example.org/understand_written_Bengali> a <http://example.org/Bengali> ;
+    rdfs:label "understand written Bengali" .
+
+<http://example.org/understand_written_Berber> a <http://example.org/Berber> ;
+    rdfs:label "understand written Berber" .
+
+<http://example.org/understand_written_Bihari> a <http://example.org/Bihari> ;
+    rdfs:label "understand written Bihari" .
+
+<http://example.org/understand_written_Bosnian> a <http://example.org/Bosnian> ;
+    rdfs:label "understand written Bosnian" .
+
+<http://example.org/understand_written_Bulgarian> a <http://example.org/Bulgarian> ;
+    rdfs:label "understand written Bulgarian" .
+
+<http://example.org/understand_written_Catalan> a <http://example.org/Catalan> ;
+    rdfs:label "understand written Catalan" .
+
+<http://example.org/understand_written_Chinese> a <http://example.org/Chinese> ;
+    rdfs:label "understand written Chinese" .
+
+<http://example.org/understand_written_Croatian> a <http://example.org/Croatian> ;
+    rdfs:label "understand written Croatian" .
+
+<http://example.org/understand_written_Czech> a <http://example.org/Czech> ;
+    rdfs:label "understand written Czech" .
+
+<http://example.org/understand_written_Danish> a <http://example.org/Danish> ;
+    rdfs:label "understand written Danish" .
+
+<http://example.org/understand_written_Dutch> a <http://example.org/Dutch> ;
+    rdfs:label "understand written Dutch" .
+
+<http://example.org/understand_written_English> a <http://example.org/English> ;
+    rdfs:label "understand written English" .
+
+<http://example.org/understand_written_Estonian> a <http://example.org/Estonian> ;
+    rdfs:label "understand written Estonian" .
+
+<http://example.org/understand_written_Finnish> a <http://example.org/Finnish> ;
+    rdfs:label "understand written Finnish" .
+
+<http://example.org/understand_written_French> a <http://example.org/French> ;
+    rdfs:label "understand written French" .
+
+<http://example.org/understand_written_Galician> a <http://example.org/Galician> ;
+    rdfs:label "understand written Galician" .
+
+<http://example.org/understand_written_Georgian> a <http://example.org/Georgian> ;
+    rdfs:label "understand written Georgian" .
+
+<http://example.org/understand_written_German> a <http://example.org/German> ;
+    rdfs:label "understand written German" .
+
+<http://example.org/understand_written_Greek> a <http://example.org/Greek> ;
+    rdfs:label "understand written Greek" .
+
+<http://example.org/understand_written_Gujarati> a <http://example.org/Gujarati> ;
+    rdfs:label "understand written Gujarati" .
+
+<http://example.org/understand_written_Hebrew> a <http://example.org/Hebrew> ;
+    rdfs:label "understand written Hebrew" .
+
+<http://example.org/understand_written_Hindi> a <http://example.org/Hindi> ;
+    rdfs:label "understand written Hindi" .
+
+<http://example.org/understand_written_Hungarian> a <http://example.org/Hungarian> ;
+    rdfs:label "understand written Hungarian" .
+
+<http://example.org/understand_written_Icelandic> a <http://example.org/Icelandic> ;
+    rdfs:label "understand written Icelandic" .
+
+<http://example.org/understand_written_Irish> a <http://example.org/Irish> ;
+    rdfs:label "understand written Irish" .
+
+<http://example.org/understand_written_Italian> a <http://example.org/Italian> ;
+    rdfs:label "understand written Italian" .
+
+<http://example.org/understand_written_Japanese> a <http://example.org/Japanese> ;
+    rdfs:label "understand written Japanese" .
+
+<http://example.org/understand_written_Javanese> a <http://example.org/Javanese> ;
+    rdfs:label "understand written Javanese" .
+
+<http://example.org/understand_written_Kazakh> a <http://example.org/Kazakh> ;
+    rdfs:label "understand written Kazakh" .
+
+<http://example.org/understand_written_Korean> a <http://example.org/Korean> ;
+    rdfs:label "understand written Korean" .
+
+<http://example.org/understand_written_Kurdish> a <http://example.org/Kurdish> ;
+    rdfs:label "understand written Kurdish" .
+
+<http://example.org/understand_written_Latvian> a <http://example.org/Latvian> ;
+    rdfs:label "understand written Latvian" .
+
+<http://example.org/understand_written_Limburgish> a <http://example.org/Limburgish> ;
+    rdfs:label "understand written Limburgish" .
+
+<http://example.org/understand_written_Lithuanian> a <http://example.org/Lithuanian> ;
+    rdfs:label "understand written Lithuanian" .
+
+<http://example.org/understand_written_Macedonian> a <http://example.org/Macedonian> ;
+    rdfs:label "understand written Macedonian" .
+
+<http://example.org/understand_written_Malay> a <http://example.org/Malay> ;
+    rdfs:label "understand written Malay" .
+
+<http://example.org/understand_written_Maltese> a <http://example.org/Maltese> ;
+    rdfs:label "understand written Maltese" .
+
+<http://example.org/understand_written_Marathi> a <http://example.org/Marathi> ;
+    rdfs:label "understand written Marathi" .
+
+<http://example.org/understand_written_Montenegrin> a <http://example.org/Montenegrin> ;
+    rdfs:label "understand written Montenegrin" .
+
+<http://example.org/understand_written_Norwegian> a <http://example.org/Norwegian> ;
+    rdfs:label "understand written Norwegian" .
+
+<http://example.org/understand_written_Occitan> a <http://example.org/Occitan> ;
+    rdfs:label "understand written Occitan" .
+
+<http://example.org/understand_written_Persian> a <http://example.org/Persian> ;
+    rdfs:label "understand written Persian" .
+
+<http://example.org/understand_written_Polish> a <http://example.org/Polish> ;
+    rdfs:label "understand written Polish" .
+
+<http://example.org/understand_written_Portuguese> a <http://example.org/Portuguese> ;
+    rdfs:label "understand written Portuguese" .
+
+<http://example.org/understand_written_Punjabi> a <http://example.org/Punjabi> ;
+    rdfs:label "understand written Punjabi" .
+
+<http://example.org/understand_written_Romani> a <http://example.org/Romani> ;
+    rdfs:label "understand written Romani" .
+
+<http://example.org/understand_written_Romanian> a <http://example.org/Romanian> ;
+    rdfs:label "understand written Romanian" .
+
+<http://example.org/understand_written_Russian> a <http://example.org/Russian> ;
+    rdfs:label "understand written Russian" .
+
+<http://example.org/understand_written_Sardinian> a <http://example.org/Sardinian> ;
+    rdfs:label "understand written Sardinian" .
+
+<http://example.org/understand_written_Serbian> a <http://example.org/Serbian> ;
+    rdfs:label "understand written Serbian" .
+
+<http://example.org/understand_written_Slovak> a <http://example.org/Slovak> ;
+    rdfs:label "understand written Slovak" .
+
+<http://example.org/understand_written_Slovenian> a <http://example.org/Slovenian> ;
+    rdfs:label "understand written Slovenian" .
+
+<http://example.org/understand_written_Spanish> a <http://example.org/Spanish> ;
+    rdfs:label "understand written Spanish" .
+
+<http://example.org/understand_written_Swedish> a <http://example.org/Swedish> ;
+    rdfs:label "understand written Swedish" .
+
+<http://example.org/understand_written_Tamil> a <http://example.org/Tamil> ;
+    rdfs:label "understand written Tamil" .
+
+<http://example.org/understand_written_Telugu> a <http://example.org/Telugu> ;
+    rdfs:label "understand written Telugu" .
+
+<http://example.org/understand_written_Turkish> a <http://example.org/Turkish> ;
+    rdfs:label "understand written Turkish" .
+
+<http://example.org/understand_written_Ukrainian> a <http://example.org/Ukrainian> ;
+    rdfs:label "understand written Ukrainian" .
+
+<http://example.org/understand_written_Urdu> a <http://example.org/Urdu> ;
+    rdfs:label "understand written Urdu" .
+
+<http://example.org/understand_written_Vietnamese> a <http://example.org/Vietnamese> ;
+    rdfs:label "understand written Vietnamese" .
+
+<http://example.org/understand_written_Walloon> a <http://example.org/Walloon> ;
+    rdfs:label "understand written Walloon" .
+
+<http://example.org/understand_written_Welsh> a <http://example.org/Welsh> ;
+    rdfs:label "understand written Welsh" .
+
+<http://example.org/understand_written_Yiddish> a <http://example.org/Yiddish> ;
+    rdfs:label "understand written Yiddish" .
+
+<http://example.org/write_Albanian> a <http://example.org/Albanian> ;
+    rdfs:label "write Albanian" .
+
+<http://example.org/write_Arabic> a <http://example.org/Arabic> ;
+    rdfs:label "write Arabic" .
+
+<http://example.org/write_Armenian> a <http://example.org/Armenian> ;
+    rdfs:label "write Armenian" .
+
+<http://example.org/write_Azerbaijani> a <http://example.org/Azerbaijani> ;
+    rdfs:label "write Azerbaijani" .
+
+<http://example.org/write_Basque> a <http://example.org/Basque> ;
+    rdfs:label "write Basque" .
+
+<http://example.org/write_Belarusian> a <http://example.org/Belarusian> ;
+    rdfs:label "write Belarusian" .
+
+<http://example.org/write_Bengali> a <http://example.org/Bengali> ;
+    rdfs:label "write Bengali" .
+
+<http://example.org/write_Berber> a <http://example.org/Berber> ;
+    rdfs:label "write Berber" .
+
+<http://example.org/write_Bihari> a <http://example.org/Bihari> ;
+    rdfs:label "write Bihari" .
+
+<http://example.org/write_Bosnian> a <http://example.org/Bosnian> ;
+    rdfs:label "write Bosnian" .
+
+<http://example.org/write_Bulgarian> a <http://example.org/Bulgarian> ;
+    rdfs:label "write Bulgarian" .
+
+<http://example.org/write_Catalan> a <http://example.org/Catalan> ;
+    rdfs:label "write Catalan" .
+
+<http://example.org/write_Chinese> a <http://example.org/Chinese> ;
+    rdfs:label "write Chinese" .
+
+<http://example.org/write_Croatian> a <http://example.org/Croatian> ;
+    rdfs:label "write Croatian" .
+
+<http://example.org/write_Czech> a <http://example.org/Czech> ;
+    rdfs:label "write Czech" .
+
+<http://example.org/write_Danish> a <http://example.org/Danish> ;
+    rdfs:label "write Danish" .
+
+<http://example.org/write_Dutch> a <http://example.org/Dutch> ;
+    rdfs:label "write Dutch" .
+
+<http://example.org/write_English> a <http://example.org/English> ;
+    rdfs:label "write English" .
+
+<http://example.org/write_Estonian> a <http://example.org/Estonian> ;
+    rdfs:label "write Estonian" .
+
+<http://example.org/write_Finnish> a <http://example.org/Finnish> ;
+    rdfs:label "write Finnish" .
+
+<http://example.org/write_French> a <http://example.org/French> ;
+    rdfs:label "write French" .
+
+<http://example.org/write_Galician> a <http://example.org/Galician> ;
+    rdfs:label "write Galician" .
+
+<http://example.org/write_Georgian> a <http://example.org/Georgian> ;
+    rdfs:label "write Georgian" .
+
+<http://example.org/write_German> a <http://example.org/German> ;
+    rdfs:label "write German" .
+
+<http://example.org/write_Greek> a <http://example.org/Greek> ;
+    rdfs:label "write Greek" .
+
+<http://example.org/write_Gujarati> a <http://example.org/Gujarati> ;
+    rdfs:label "write Gujarati" .
+
+<http://example.org/write_Hebrew> a <http://example.org/Hebrew> ;
+    rdfs:label "write Hebrew" .
+
+<http://example.org/write_Hindi> a <http://example.org/Hindi> ;
+    rdfs:label "write Hindi" .
+
+<http://example.org/write_Hungarian> a <http://example.org/Hungarian> ;
+    rdfs:label "write Hungarian" .
+
+<http://example.org/write_Icelandic> a <http://example.org/Icelandic> ;
+    rdfs:label "write Icelandic" .
+
+<http://example.org/write_Irish> a <http://example.org/Irish> ;
+    rdfs:label "write Irish" .
+
+<http://example.org/write_Italian> a <http://example.org/Italian> ;
+    rdfs:label "write Italian" .
+
+<http://example.org/write_Japanese> a <http://example.org/Japanese> ;
+    rdfs:label "write Japanese" .
+
+<http://example.org/write_Javanese> a <http://example.org/Javanese> ;
+    rdfs:label "write Javanese" .
+
+<http://example.org/write_Kazakh> a <http://example.org/Kazakh> ;
+    rdfs:label "write Kazakh" .
+
+<http://example.org/write_Korean> a <http://example.org/Korean> ;
+    rdfs:label "write Korean" .
+
+<http://example.org/write_Kurdish> a <http://example.org/Kurdish> ;
+    rdfs:label "write Kurdish" .
+
+<http://example.org/write_Latvian> a <http://example.org/Latvian> ;
+    rdfs:label "write Latvian" .
+
+<http://example.org/write_Limburgish> a <http://example.org/Limburgish> ;
+    rdfs:label "write Limburgish" .
+
+<http://example.org/write_Lithuanian> a <http://example.org/Lithuanian> ;
+    rdfs:label "write Lithuanian" .
+
+<http://example.org/write_Macedonian> a <http://example.org/Macedonian> ;
+    rdfs:label "write Macedonian" .
+
+<http://example.org/write_Malay> a <http://example.org/Malay> ;
+    rdfs:label "write Malay" .
+
+<http://example.org/write_Maltese> a <http://example.org/Maltese> ;
+    rdfs:label "write Maltese" .
+
+<http://example.org/write_Marathi> a <http://example.org/Marathi> ;
+    rdfs:label "write Marathi" .
+
+<http://example.org/write_Montenegrin> a <http://example.org/Montenegrin> ;
+    rdfs:label "write Montenegrin" .
+
+<http://example.org/write_Norwegian> a <http://example.org/Norwegian> ;
+    rdfs:label "write Norwegian" .
+
+<http://example.org/write_Occitan> a <http://example.org/Occitan> ;
+    rdfs:label "write Occitan" .
+
+<http://example.org/write_Persian> a <http://example.org/Persian> ;
+    rdfs:label "write Persian" .
+
+<http://example.org/write_Polish> a <http://example.org/Polish> ;
+    rdfs:label "write Polish" .
+
+<http://example.org/write_Portuguese> a <http://example.org/Portuguese> ;
+    rdfs:label "write Portuguese" .
+
+<http://example.org/write_Punjabi> a <http://example.org/Punjabi> ;
+    rdfs:label "write Punjabi" .
+
+<http://example.org/write_Romani> a <http://example.org/Romani> ;
+    rdfs:label "write Romani" .
+
+<http://example.org/write_Romanian> a <http://example.org/Romanian> ;
+    rdfs:label "write Romanian" .
+
+<http://example.org/write_Russian> a <http://example.org/Russian> ;
+    rdfs:label "write Russian" .
+
+<http://example.org/write_Sardinian> a <http://example.org/Sardinian> ;
+    rdfs:label "write Sardinian" .
+
+<http://example.org/write_Serbian> a <http://example.org/Serbian> ;
+    rdfs:label "write Serbian" .
+
+<http://example.org/write_Slovak> a <http://example.org/Slovak> ;
+    rdfs:label "write Slovak" .
+
+<http://example.org/write_Slovenian> a <http://example.org/Slovenian> ;
+    rdfs:label "write Slovenian" .
+
+<http://example.org/write_Spanish> a <http://example.org/Spanish> ;
+    rdfs:label "write Spanish" .
+
+<http://example.org/write_Swedish> a <http://example.org/Swedish> ;
+    rdfs:label "write Swedish" .
+
+<http://example.org/write_Tamil> a <http://example.org/Tamil> ;
+    rdfs:label "write Tamil" .
+
+<http://example.org/write_Telugu> a <http://example.org/Telugu> ;
+    rdfs:label "write Telugu" .
+
+<http://example.org/write_Turkish> a <http://example.org/Turkish> ;
+    rdfs:label "write Turkish" .
+
+<http://example.org/write_Ukrainian> a <http://example.org/Ukrainian> ;
+    rdfs:label "write Ukrainian" .
+
+<http://example.org/write_Urdu> a <http://example.org/Urdu> ;
+    rdfs:label "write Urdu" .
+
+<http://example.org/write_Vietnamese> a <http://example.org/Vietnamese> ;
+    rdfs:label "write Vietnamese" .
+
+<http://example.org/write_Walloon> a <http://example.org/Walloon> ;
+    rdfs:label "write Walloon" .
+
+<http://example.org/write_Welsh> a <http://example.org/Welsh> ;
+    rdfs:label "write Welsh" .
+
+<http://example.org/write_Yiddish> a <http://example.org/Yiddish> ;
+    rdfs:label "write Yiddish" .
+

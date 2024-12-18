@@ -1,0 +1,44 @@
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-wrapper {
+    position: relative;
+}
+
+.toggle-filter {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Style the dropdown appearance when hidden */
+.filter-dropdown {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+/* Adjusted style for the active state */
+.filter-dropdown.active {
+    display: block;
+    max-height: 100px; /* Adjust the max height as needed */
+    transition: max-height 0.3s ease-in;
+}
+.filter-checkboxes {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.filter-checkboxes.active {
+    max-height: 100px; /* Adjust the max height as needed */
+    transition: max-height 0.3s ease-in;
+}
+.filter-checkboxes input[type="checkbox"]:checked + label {
+    background-color: #147377;
+    color: #fff;
+}

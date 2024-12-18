@@ -1,0 +1,684 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #174248;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo img {
+    margin-right: 10px;
+    max-height: 78px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    height: 100vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+.search-barr {
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 30px;
+    outline: none;
+    width: 240px;
+  }
+.search-icon {
+    position: relative;
+    left: -35px;
+    color: #888;
+  }
+
+  .search-bar {
+    width: 50%;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+}
+
+.buttons-container, .domains-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 55px;
+    margin-right: 160px;
+    margin-left: 160px;
+
+  }
+
+.button {
+    padding: 15px;
+    cursor: pointer;
+    color: #333;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    flex: 0 0 calc(33.333% - 20px);
+
+  }
+.button:hover {
+    transform: translateY(-3px);
+  }
+.domain-title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: #d63384;
+    margin: 20px 0;
+  }
+.domain-button {
+    width: 50px;
+    height: 150px;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s ease;
+    background-color: #ddd;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    flex: 0 0 calc(33.333% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+.domain-button p {
+    margin-top: 100px;
+}
+
+.domain-button i {
+    margin-bottom: 30px;
+}
+
+.icon {
+    position: absolute;
+    font-size: 48px;
+  }
+@media (max-width: 600px) {
+    .button,
+    .domain-button
+  }
+
+.magnifier {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.jobs-available {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.jobs-available span {
+    font-size: 24px;
+    display: block;
+    color: #333;
+}
+
+.jobs-available small {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Alert Button Styles */
+.alert-button {
+    background-color: #d63384;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+aside.search-board {
+    width: 250px;
+}
+
+.saved-searches {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.saved-searches-header {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-results {
+    color: #174248;
+    flex-grow: 1;
+    padding-left: 20px;
+    text-align: center;
+}
+.search-board {
+    color: white;
+    background-color: #8E9D9E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search-board label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-board select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.reset-filters {
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block;
+}
+.reset-filters:hover {
+    color: #174248;
+}
+
+.filter-reset-button,
+.filter-button {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.filter-reset-button {
+    background-color: white;
+    color: #333;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.filter-reset-button:hover {
+    background-color: #e6e6e6;
+}
+
+.filter-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-button .arrow {
+    content: '\25BC';
+}
+
+.filter-button.active .arrow {
+    content: '\25B2';
+}
+
+.activity-range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.activity-range input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.activity-range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #d63384;
+    cursor: pointer;
+}
+
+.activity-range input[type="range"]::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    background: #d63384;
+    cursor: pointer;
+}
+
+.activity-range label {
+    font-size: 14px;
+}
+
+
+.job-listings {
+    flex-grow: 1;
+}
+
+.job-card {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.job-card-header .job-date {
+    font-size: 14px;
+    color: #999;
+}
+
+.job-card-header .job-like {
+    cursor: pointer;
+    color: #ffc107;
+}
+
+.job-card-body {
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.job-card-footer {
+    text-align: left;
+}
+
+.job-card-footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.job-card-footer a:hover {
+    text-decoration: underline;
+}
+
+.job-skills {
+    background-color: #eef2f7;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.job-skills strong {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.job-skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.job-skills ul li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.teal-nav {
+    background-color: #174248;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: 300px;
+    padding:30px 0px;
+}
+
+.teal-nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cube-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cube {
+    flex-basis: calc(33.33% - 10px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.skills-cube {
+    background-color: #d9015d;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.search-cube{
+    background-color: #979797;
+    color: #fff;
+    margin-right: 20px;
+}
+
+
+.job-cube{
+    background-color: #174248;
+    color: #fff;
+    margin-right: 20px;
+}
+.cube h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cube ul {
+    list-style-type: none;
+}
+
+.cube ul li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.cube button {
+    background-color: #005f5f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+.chart-container {
+    position: relative;
+    height: 70vh; 
+    width: 100vw; 
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-button {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #333;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    flex: 0 0 calc(33.333% - 20px);
+}
+
+.skill-button:hover {
+    transform: translateY(-3px);
+}
+
+/* Style du modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.7);
+}
+
+/* Style du contenu du modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Style pour fermer le modal */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.img-container {
+        text-align: center;
+      }
+.search-input-container {
+    position: relative;
+    width: 400px;
+}
+
+#keyword {
+    height: 20px; /* Adjust the height as needed */
+    padding-left: 29px;
+    border-radius: 3px; /* rounded corners of the search box*/
+}
+
+.placeholder-icon {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; /* Adjust the color as needed */
+}
+
+.placeholder-hidden {
+    display: none;
+}
+
+.filter-wrapper {
+    position: relative;
+}
+
+.toggle-filter {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Style the dropdown appearance when hidden */
+.filter-dropdown {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+/* Adjusted style for the active state */
+.filter-dropdown.active {
+    display: block;
+    max-height: 100px; /* Adjust the max height as needed */
+    transition: max-height 0.3s ease-in;
+}
+
+.filter-checkboxes {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.filter-checkboxes.active {
+    max-height: 200px !important; /* Adjust the max height as needed */
+    transition: max-height 0.3s ease-in;
+}
+
+.filter-checkboxes input[type="checkbox"]:checked + label {
+    background-color: #147377;
+    color: #fff;
+}
+
+.filter-label {
+    border-bottom: 4px solid #FFFFFF;
+    padding-bottom: 15px;
+    display: inline-block; /* Make the label inline-block to contain the border */
+}
+
+.filter-group {
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.filter-container {
+    margin: 20px 0;
+}
+
+.filter-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.filter-button .arrow {
+    float: right;
+}
+
+.filter-options {
+    display: none;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #e9e9e9;
+    border: 1px solid #d9d9d9;
+}
+
+.filter-options label {
+    display: block;
+    margin: 5px 0;
+}
+
+.search-submit-button {
+    display: block; /* Make the button span the full width of its container */
+    width: 100%; /* Full width */
+    padding: 10px 15px; /* Padding for better sizing */
+    margin-top: 20px; /* Extra space above the button for separation */
+    background-color: #007bff; /* Example background color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+}
+
+.search-submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover for visual feedback */
+}
+.search-submit-button {
+    display: block; /* Make the button span the full width of its container */
+    width: 100%; /* Full width */
+    padding: 10px 15px; /* Padding for better sizing */
+    margin-top: 20px; /* Extra space above the button for separation */
+    background-color: #184248; /* Example background color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+}
+
+.search-submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover for visual feedback */
+}

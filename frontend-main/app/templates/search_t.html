@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_t.css">
+    <link rel="stylesheet" href="dropdown-styles.css">
+    <link rel="stylesheet" href="search-field-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Search</title>
+</head>
+<body>
+        <header>
+            <div class="logo">
+                <img src="../static/images/logo-unige.png" alt="Logo">
+                <h1>Observatoire emploi</h1>
+            </div>
+
+                <nav class="teal-nav">
+                    <a href="{{ url_for('accueil') }}">Accueil</a>
+                    <a href="{{ url_for('display_jobs') }}">Emploi</a>
+                    <a href="{{ url_for('display_skills') }}">Compétence</a>
+                    <a href="{{ url_for('display_search') }}">Recherche</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="profile.html">Profil</a>
+                </nav>
+
+        </header>
+
+
+    <!-- Main content section -->
+    <main class="search-page">
+        <!-- Left-side board -->
+        <aside class="search-board">
+
+
+    <form action="#" method="get">
+                <!-- Keyword input -->
+                <div class="search-input-container">
+                    <div class="placeholder-icon">&#128269;</div>
+                    <input type="text" id="keyword" name="keyword" placeholder="Recherche par mot clé">
+                </div>
+</form>
+
+                <h2>Recherche avancé</h2>
+                <!-- Domaine filter -->
+               <div class="filter-group">
+    <label for="dom1" class="filter-label">
+        <i class="fa-solid fa-graduation-cap"></i> Domaine:</label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes">
+            <label><input type="checkbox" id="dom1" name="domaine" value="economie"> Économie</label>
+            <label><input type="checkbox" id="dom2" name="domaine" value="IT"> IT</label>
+            <label><input type="checkbox" id="dom3" name="domaine" value="droit"> Droit</label>
+            <label><input type="checkbox" id="dom4" name="domaine" value="medecine"> Médecine</label>
+            <label><input type="checkbox" id="dom5" name="domaine" value="medecine2"> Médecin2</label>
+        </div>
+    </div>
+</div>
+
+
+<!-- Technique filter -->
+<div class="filter-group">
+    <label for="technique1" class="filter-label">
+        <i class="fas fa-computer-mouse"></i>
+        Technique:
+    </label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes">
+            <label for="technique1">
+                <input type="checkbox" id="technique1" name="technique" value="technique1">
+                Technique 1
+            </label>
+            <label for="technique2">
+                <input type="checkbox" id="technique2" name="technique" value="technique2">
+                Technique 2
+            </label>
+        </div>
+    </div>
+</div>
+
+
+
+
+                <!-- Langue filter -->
+            <div class="filter-group">
+    <label for="langue1" class="filter-label">
+        <i class="fas fa-comments"></i> Langue:</label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes" id="langue-checkboxes">
+            <label><input type="checkbox" name="langue" id="langue1" value="English"> Anglais</label>
+            <label><input type="checkbox" name="langue" id="langue2" value="French"> Français</label>
+            <label><input type="checkbox" name="langue" id="langue3" value="German"> Allemand</label>
+            <label><input type="checkbox" name="langue" id="langue4" value="Italian"> Italien</label>
+            <label><input type="checkbox" name="langue" id="langue5" value="Russian"> Russe</label>
+        </div>
+    </div>
+</div>
+
+
+                <!-- Transverse filter -->
+                <div class="filter-group">
+    <label for="transverse1" class="filter-label">
+        <i class="fas fa-shuffle"></i>
+        Transverse
+    </label>
+    <div class="filter-wrapper">
+        <span class="toggle-filter">+</span>
+        <div class="filter-checkboxes" id="transverse-checkboxes">
+            <label><input type="checkbox" name="transverse" id="transverse1" value="transverse1">TRANS1</label>
+            <label><input type="checkbox" name="transverse" id="transverse2" value="transverse2">TRANS2</label>
+        </div>
+    </div>
+</div>
+
+
+                <button type="submit">Lancer la recherche</button>
+
+                <!-- Reset Filters link -->
+                <p id="resetFilters" class="reset-filters">Réinitialiser les filtres</p>
+            </form>
+        </aside>
+    <script>
+        const checkboxes = document.querySelectorAll('.filter-checkboxes input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+    </script>
+        <!-- Main content -->
+        <section class="search-results">
+            <h2>Search Results</h2>
+            <p>This is where the search results will appear.</p>
+            <!-- need to add search results display -->
+        </section>
+    </main>
+
+   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleFilterIcons = document.querySelectorAll('.toggle-filter');
+
+        toggleFilterIcons.forEach(icon => {
+            icon.addEventListener('click', function () {
+                const checkboxes = this.nextElementSibling;
+                checkboxes.classList.toggle('active');
+
+                // Update the content of the toggle button based on the dropdown state
+                this.textContent = checkboxes.classList.contains('active') ? '-' : '+';
+            });
+        });
+    });
+</script>
+
+    <!-- text in the search field input -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const keywordInput = document.getElementById('keyword');
+
+            keywordInput.addEventListener('focus', function () {
+                this.placeholder = '';
+                const placeholderIcon = document.querySelector('.placeholder-icon');
+                placeholderIcon.classList.add('placeholder-hidden');
+            });
+
+            keywordInput.addEventListener('blur', function () {
+                if (this.value === '') {
+                    this.placeholder = 'Recherche par mot clé';
+                    const placeholderIcon = document.querySelector('.placeholder-icon');
+                    placeholderIcon.classList.remove('placeholder-hidden');
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>
